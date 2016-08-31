@@ -1,0 +1,5 @@
+ro.com.google.clientidbase=android-htc
+ro.product.model=HTC 10
+ro.cw.base.version=M60
+ro.product.locale=en-US
+persist.radio.NETWORK_SWITCH=1

@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+# fix for radio when secure boot - @baadnewz from XDA
+setprop ril.qcril_pre_init_lock_held 0;
+# Allow mobile network while decrypted - @squid2 from XDA 
+setprop persist.radio.current.cnv 0;
+# selinux 
+#setenforce 0;

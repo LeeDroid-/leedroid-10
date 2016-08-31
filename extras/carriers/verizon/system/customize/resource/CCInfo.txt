@@ -1,0 +1,4 @@
+﻿ROM Build ID: 3044728
+ROM Name: VZW WWE ROM
+SKU ID: 132349, SKU Name: VERIZON WWE, CID: default, MNS: default
+Datetime: 2016/06/03 16:20:42

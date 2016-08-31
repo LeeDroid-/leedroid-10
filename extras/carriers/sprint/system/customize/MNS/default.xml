@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="application">
+    <module name="weather_sync_provider">
+      <function name="settings">
+        <set name="single">
+          <item name="temprature_unit">f</item>
+          <item name="update_interval">10800000</item>
+          <item name="sound_effect">false</item>
+          <item name="news_tab">true</item>
+        </set>
+      </function>
+    </module>
+    <module name="MessageConfig">
+      <function name="Message_QuickText">
+        <set name="plenty">
+          <item name="Locale">en_US</item>
+          <item name="Quick_Text1">Can't talk right now. Send me a message.</item>
+          <item name="Quick_Text2">Call me</item>
+          <item name="Quick_Text3">Where are you?</item>
+          <item name="Quick_Text4">Can you talk?</item>
+          <item name="Quick_Text5">Don't forget to</item>
+          <item name="Quick_Text6">Can you pick up</item>
+          <item name="Quick_Text7">Thanks!</item>
+          <item name="Quick_Text8">Meet me at</item>
+          <item name="Quick_Text9">Let's get lunch.</item>
+          <item name="Quick_Text10">I sent this from my PCS phone.</item>
+          <item name="Quick_Text11">The meeting has been cancelled.</item>
+          <item name="Quick_Text12">I have to work late.</item>
+          <item name="Quick_Text13">I'm on a conference call.</item>
+          <item name="Quick_Text14">I'll be there at</item>
+          <item name="Quick_Text15">What time does it start?</item>
+          <item name="Quick_Text16">Tag, you're it!</item>
+          <item name="Quick_Text17">I love you!</item>
+          <item name="Quick_Text18">Hugs and kisses - OXOXO</item>
+          <item name="Quick_Text19">Crazy 4 you!</item>
+          <item name="Quick_Text20">Too funny!</item>
+        </set>
+        <set name="plenty">
+          <item name="Locale">es_US</item>
+          <item name="Quick_Text1">No puedo hablar ahora. Envíame un mensaje.</item>
+          <item name="Quick_Text2">Llámame.</item>
+          <item name="Quick_Text3">¿Dónde estás?</item>
+          <item name="Quick_Text4">¿Puedes hablar?</item>
+          <item name="Quick_Text5">No te olvides de</item>
+          <item name="Quick_Text6">¿Podemos vernos hoy?</item>
+          <item name="Quick_Text7">¡Gracias!</item>
+          <item name="Quick_Text8">Nos vemos en</item>
+          <item name="Quick_Text9">¡Vamos a comer!</item>
+          <item name="Quick_Text10">Envié esto desde mi teléfono PCS.</item>
+          <item name="Quick_Text11">La reunión ha sido cancelada.</item>
+          <item name="Quick_Text12">Tengo que trabajar hasta tarde.</item>
+          <item name="Quick_Text13">Estoy en una llamada de conferencia.</item>
+          <item name="Quick_Text14">Estaré ahí a las</item>
+          <item name="Quick_Text15">¿A qué hora empieza?</item>
+          <item name="Quick_Text16">¡Qué mala onda!</item>
+          <item name="Quick_Text17">¡Te quiero!</item>
+          <item name="Quick_Text18">Muchos besos,</item>
+          <item name="Quick_Text19">¡Te extraño!</item>
+          <item name="Quick_Text20">¡Me muero de la risa!</item>
+        </set>
+      </function>
+      <function name="setting">
+        <set name="single">
+          <item name="MMS_Auto_Retrieve">true</item>
+          <item name="MMS_Roaming_Auto_Retrieve">false</item>
+          <item name="MMS_Priority">Normal</item>
+          <item name="MMS_Msg_Size1">300K</item>
+          <item name="MMS_Msg_Size2">600K</item>
+          <item name="MMS_Msg_Size3">2M</item>
+          <item name="MMS_Msg_Size_Choose">2M</item>
+          <item name="MMS_Received_Notify">true</item>
+          <item name="MMS_Play_Received_Notify">true</item>
+          <item name="MMS_Received_Viberation">false</item>
+          <item name="MMS_Sent_Notify">false</item>
+          <item name="MMS_Fail_Notify">true</item>
+          <item name="MMS_Play_Notify">true</item>
+          <item name="MMS_Notify_Sound">Default Ringtone</item>
+          <item name="MMS_Viberation">false</item>
+          <item name="MMS_Max_Recipient_Number">40</item>
+          <item name="SMS_Max_Recipient_Number">40</item>
+          <item name="SMS_Max_Concatenated_Number">6</item>
+          <item name="MMS_Max_Slide_Number">10</item>
+          <item name="MMS_Default_Slide_Duration">5000</item>
+          <item name="RECIPT_Show_Sent_Msg_History">true</item>
+          <item name="RECIPT_Show_Email_Address">true</item>
+          <item name="MSG_Preview_Line">2</item>
+          <item name="STORAGE_Del_Old_Msg">false</item>
+          <item name="STORAGE_Text_Msg_Limit">200</item>
+          <item name="STORAGE_MMS_Msg_Limit">20</item>
+          <item name="SMS_Wap_Push_Support">false</item>
+          <item name="SMS_Empty_Draft_Support">true</item>
+          <item name="SMS_To_Email_Support">true</item>
+          <item name="SMS_Email_Server_Number">6245</item>
+          <item name="SMS_Class_Zero_Save_Support">true</item>
+          <item name="SMS_Concatenated_Email_SMS">false</item>
+          <item name="SMS_Subject_Support">true</item>
+          <item name="SMS_SMSC_Editable">true</item>
+          <item name="SMS_Empty_SMS_Support">false</item>
+          <item name="SMS_High_Priority">1,2,3</item>
+          <item name="SMS_Use_Device_Time">false</item>
+          <item name="SMS_Characters">true</item>
+          <item name="MMS_Retry_Policy">15,15,15,15,15,15</item>
+          <item name="MSG_General_CMAS_Support">true</item>
+          <item name="SMS_Callback_Number">true</item>
+          <item name="MSG_Use_Signature">false</item>
+          <item name="Display_message_on_screen">success_and_failure</item>
+          <item name="MMS_Show_Connection_Setting">true</item>
+          <item name="MMS_Show_All_Mixed_Text">false</item>
+          <item name="RECIPT_Input_Type_Number">false</item>
+          <item name="MMS_Force_Display_In_Slideshow">false</item>
+          <item name="MMS_Show_Restricted_Mode">false</item>
+          <item name="MMS_CDMA_MMSC_Config_Tool">false</item>
+          <item name="MMS_CDMA_MMSC_Editable">false</item>
+          <item name="SMS_PWS_Second_Language_Support">true</item>
+        </set>
+      </function>
+    </module>
+    <module name="multimedia">
+      <function name="HtcStreamPlayer">
+        <set name="single">
+          <item name="default_rtsp_proxy_ip">rtsp.vog.sprintpcs.com</item>
+          <item name="default_rtsp_proxy_port">554</item>
+        </set>
+      </function>
+    </module>
+    <module name="Launcher">
+      <function name="quick_launch_customization">
+        <set name="single" max="1">
+          <item name="file">system/customize/resource/quicklaunch.xml</item>
+        </set>
+      </function>
+      <function name="all_applications_customization">
+        <set name="single" max="1">
+          <item name="file">system/customize/resource/allapplication.xml</item>
+        </set>
+      </function>
+      <function name="extra_wallpapers">
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_00.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_01.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_02.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_03.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_04.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_05.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_06.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_07.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_08.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_09.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_10.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_11.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_12.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_13.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_14.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_15.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_16.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_17.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_18.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_19.jpg</item>
+        </set>
+	<set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_20.jpg</item>
+        </set>
+      </function>
+      <function name="contextual_widget_customization">
+        <set name="single" max="1">
+          <item name="file">system/customize/resource/contextualwidget.xml</item>
+        </set>
+      </function>
+      <function name="scene_list">
+        <set name="plenty" max="1">
+          <item name="scenename">HTC</item>
+          <item name="pages_count">4</item>
+          <item name="home_index">1</item>
+          <item name="feed_index">0</item>
+        </set>
+      </function>
+      <function name="1_folders">
+        <set name="plenty">
+          <item name="title">Google</item>
+          <item name="screen">1</item>
+          <item name="x">1</item>
+          <item name="y">3</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.googlequicksearchbox</item>
+          <item name="class">com.google.android.googlequicksearchbox.SearchActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.gm</item>
+          <item name="class">com.google.android.gm.ConversationListActivityGmail</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.maps</item>
+          <item name="class">com.google.android.maps.MapsActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.youtube</item>
+          <item name="class">com.google.android.youtube.app.honeycomb.Shell$HomeActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.docs</item>
+          <item name="class">com.google.android.apps.docs.app.NewMainProxyActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.music</item>
+          <item name="class">com.android.music.activitymanagement.TopLevelActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.videos</item>
+          <item name="class">com.google.android.youtube.videos.EntryPoint</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.talk</item>
+          <item name="class">com.google.android.talk.SigningInActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.photos</item>
+          <item name="class">com.google.android.apps.photos.home.HomeActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.docs.editors.docs</item>
+          <item name="class">com.google.android.apps.docs.app.NewMainProxyActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.calendar</item>
+          <item name="class">com.android.calendar.AllInOneActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.docs.editors.sheets</item>
+          <item name="class">com.google.android.apps.docs.app.NewMainProxyActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.docs.editors.slides</item>
+          <item name="class">com.google.android.apps.docs.app.NewMainProxyActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="1_shortcuts">
+        <set name="plenty">
+          <item name="package">com.android.vending</item>
+          <item name="class">com.android.vending.AssetBrowserActivity</item>
+          <item name="screen">1</item>
+          <item name="x">2</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.sprint.zone</item>
+          <item name="class">com.sprint.zone.lib.core.LaunchZone</item>
+          <item name="screen">1</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.coremobility.app.vnotes</item>
+          <item name="class">com.coremobility.app.vnotes.CM_VnoteInbox</item>
+          <item name="screen">1</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="1_app_widgets">
+        <set name="plenty" max="19">
+          <item name="package_name">com.google.android.googlequicksearchbox</item>
+          <item name="app_widget_provider">com.google.android.googlequicksearchbox.SearchWidgetProvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty" max="19">
+          <item name="package_name">com.htc.widget.weatherclock</item>
+          <item name="app_widget_provider">com.htc.widget.weatherclock.WeatherTransClock4x1</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="extra_ringtones">
+        <set name="plenty">
+          <item name="ringtone">Hibiscus.flac</item>
+        </set>
+      </function>
+      <function name="resource_path">
+        <set name="single" max="1">
+          <item name="path">/system/customize/resource/</item>
+        </set>
+      </function>
+    </module>
+    <module name="Chrome">
+      <function name="homepage">
+        <set name="single">
+          <item name="url">http://sprint.com/powerdeck</item>
+        </set>
+      </function>
+    </module>
+    <module name="MMS">
+      <function name="mmsc_default_value">
+        <set name="single">
+          <item name="MMSC_URL">http://mms.sprintpcs.com</item>
+          <item name="MMSC_Proxy">68.28.31.7:80</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="system">
+    <module name="defaultTimeFormatSetting">
+      <function>
+        <set name="single">
+          <item name="default">EE, MMM d, yyyy</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultTimeFormatSettingShort">
+      <function>
+        <set name="single">
+          <item name="default">EE, MMM d</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultInputMethod">
+      <function name="default_IME_keyboard_type">
+        <set name="single">
+          <item name="default">2</item>
+        </set>
+      </function>
+      <function name="default_IKB_settings_checked">
+        <set name="single">
+          <item name="checked_list_latin">English;Spanish;</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultLocale">
+      <function>
+        <set name="single">
+          <item name="auto_detect">false</item>
+          <item name="defeault">en_US</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="force_change">
+    <module name="MMS">
+      <function name="ua_string">
+        <set name="single">
+          <item name="value">2PS64 SPRINT</item>
+        </set>
+      </function>
+      <function name="ua_profile">
+        <set name="single">
+          <item name="value">http://device.sprintpcs.com/HTC/2PS64/1806511.rdf</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

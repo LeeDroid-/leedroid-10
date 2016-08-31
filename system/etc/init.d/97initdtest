@@ -1,0 +1,52 @@
+#!/system/bin/sh
+
+#cycle thru green, amber, red twice and blink green/red twice :/
+cycle()
+{
+	ONTIME=100000
+	TXTIME=0
+	OFFTIME=50000
+	echo 1 > /sys/class/leds/rgb_green/brightness
+	usleep $ONTIME
+	echo 0 > /sys/class/leds/rgb_green/brightness
+	usleep $TXTIME
+	echo 1 > /sys/class/leds/rgb_amber/brightness
+	echo 1 > /sys/class/leds/rgb_green/brightness
+	usleep $ONTIME
+	echo 0 > /sys/class/leds/rgb_green/brightness
+	echo 0 > /sys/class/leds/rgb_amber/brightness
+	usleep $TXTIME
+	echo 1 > /sys/class/leds/rgb_amber/brightness
+	usleep $ONTIME
+	echo 0 > /sys/class/leds/rgb_amber/brightness
+	usleep $TXTIME
+}
+
+blink_rgb_green()
+{
+	echo 1 > /sys/class/leds/rgb_green/brightness
+	usleep 200000
+	echo 0 > /sys/class/leds/rgb_green/brightness
+}
+blink_red()
+{
+	echo 1 > /sys/class/leds/rgb_amber/brightness
+	usleep 200000
+	echo 0 > /sys/class/leds/rgb_amber/brightness
+}
+blink_orange()
+{
+	echo 1 > /sys/class/leds/rgb_amber/brightness
+	echo 1 > /sys/class/leds/rgb_green/brightness
+	usleep 200000
+	echo 0 > /sys/class/leds/rgb_green/brightness
+	echo 0 > /sys/class/leds/rgb_amber/brightness
+}
+
+cycle
+cycle
+usleep 200000
+blink_rgb_green
+blink_red
+blink_rgb_green
+blink_red

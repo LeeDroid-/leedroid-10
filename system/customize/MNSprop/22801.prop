@@ -1,0 +1,10 @@
+persist.data.iwlan.enable=true
+persist.radio.VOLTE_ENABLE=1
+persist.radio.VT_ENABLE=0
+persist.radio.WIFI_CALL_ENABLE=1
+persist.radio.SS_OVER_UT=1
+persist.rcs.supported=0
+persist.radio.VT_HYBRID_ENABLE=0
+persist.radio.ROTATION_ENABLE=0
+persist.radio.RATE_ADAPT_ENABLE=0
+persist.radio.IMS_SETTING_TYPE=0

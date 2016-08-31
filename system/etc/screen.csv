@@ -1,0 +1,11 @@
+//2 color profile and 9 level colortemp,Amoled 0~8, sRGB 9~17
+DDIC 2
+5500
+5750
+6000
+6250
+6500
+6750
+7000
+7250
+7500

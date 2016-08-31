@@ -1,0 +1,2029 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="application">
+    <module name="weather_sync_provider">
+      <function name="settings">
+        <set name="single">
+          <item name="temprature_unit">f</item>
+          <item name="update_interval">10800000</item>
+          <item name="sound_effect">false</item>
+          <item name="news_tab">true</item>
+        </set>
+      </function>
+    </module>
+    <module name="weather_provider">
+      <function name="default_city">
+        <set name="plenty" max="15">
+          <item name="app">com.htc.elroy.Weather</item>
+          <item name="type">1</item>
+          <item name="name">New York</item>
+          <item name="state">NY</item>
+          <item name="country">United States</item>
+          <item name="code">NAM|US|NY|NEW YORK</item>
+          <item name="timezone">300</item>
+          <item name="timezoneid">America/New_York</item>
+        </set>
+      </function>
+    </module>
+    <module name="MessageConfig">
+      <function name="setting">
+        <set name="single">
+          <item name="SMS_Delivery_Report">false</item>
+          <item name="MMS_Delivery_Report">false</item>
+          <item name="MMS_Read_Report">false</item>
+          <item name="MMS_Auto_Retrieve">true</item>
+          <item name="MMS_Roaming_Auto_Retrieve">true</item>
+          <item name="MMS_Priority">Normal</item>
+          <item name="MMS_Msg_Size1">300K</item>
+          <item name="MMS_Msg_Size2">600K</item>
+          <item name="MMS_Msg_Size3">2M</item>
+          <item name="MMS_Msg_Size_Choose">2M</item>
+          <item name="MMS_Received_Notify">true</item>
+          <item name="MMS_Play_Received_Notify">true</item>
+          <item name="MMS_Received_Viberation">false</item>
+          <item name="MMS_Sent_Notify">false</item>
+          <item name="MMS_Fail_Notify">true</item>
+          <item name="MMS_Play_Notify">true</item>
+          <item name="MMS_Notify_Sound">Default Ringtone</item>
+          <item name="MMS_Viberation">false</item>
+          <item name="MMS_Max_Recipient_Number">20</item>
+          <item name="SMS_Max_Recipient_Number">20</item>
+          <item name="SMS_Max_Concatenated_Number">7</item>
+          <item name="MMS_Max_Slide_Number">10</item>
+          <item name="MMS_Default_Slide_Duration">5000</item>
+          <item name="RECIPT_Show_Sent_Msg_History">true</item>
+          <item name="RECIPT_Show_Email_Address">true</item>
+          <item name="MSG_Preview_Line">2</item>
+          <item name="STORAGE_Del_Old_Msg">false</item>
+          <item name="STORAGE_Text_Msg_Limit">200</item>
+          <item name="STORAGE_MMS_Msg_Limit">20</item>
+          <item name="SMS_Wap_Push_Support">true</item>
+          <item name="SMS_Empty_Draft_Support">true</item>
+          <item name="SMS_To_Email_Support">true</item>
+          <item name="SMS_Email_Server_Number">6245</item>
+          <item name="SMS_Class_Zero_Save_Support">true</item>
+          <item name="SMS_Concatenated_Email_SMS">false</item>
+          <item name="SMS_Subject_Support">false</item>
+          <item name="SMS_SMSC_Editable">true</item>
+          <item name="SMS_Empty_SMS_Support">false</item>
+          <item name="SMS_Use_Device_Time">true</item>
+          <item name="SMS_Characters">true</item>
+          <item name="MMS_Retry_Policy">30,180,300,480</item>
+          <item name="MSG_General_CMAS_Support">true</item>
+          <item name="SMS_Callback_Number">true</item>
+          <item name="MMS_Callback_Number">false</item>
+          <item name="MSG_Use_Signature">false</item>
+          <item name="Display_message_on_screen">success_and_failure</item>
+          <item name="MMS_Show_Connection_Setting">true</item>
+          <item name="MMS_Show_All_Mixed_Text">false</item>
+          <item name="RECIPT_Input_Type_Number">false</item>
+          <item name="MMS_Force_Display_In_Slideshow">false</item>
+          <item name="MMS_Show_Restricted_Mode">false</item>
+          <item name="MMS_CDMA_MMSC_Config_Tool">false</item>
+          <item name="MMS_CDMA_MMSC_Editable">true</item>
+          <item name="MSG_CMAS_First_Time_Alert_Support">true</item>
+          <item name="SMS_SMSC_Hide">true</item>
+        </set>
+      </function>
+    </module>
+    <module name="Mail">
+      <function name="mail_signature_localization">
+        <set name="plenty" max="10">
+          <item name="locale">en_US</item>
+          <item name="signature">Sent from my Verizon HTC Smartphone</item>
+        </set>
+      </function>
+      <function name="hux_common_setting">
+        <set name="plenty" max="10">
+          <item name="fetchMailDays">4</item>
+          <item name="syncSchedulePeakOn">9</item>
+          <item name="syncSchedulePeakOff">9</item>
+          <item name="peakDays">127</item>
+          <item name="peakTimeStart">300</item>
+          <item name="peakTimeEnd">0</item>
+        </set>
+      </function>
+      <function name="provider">
+        <set name="plenty" max="10">
+          <!-- %%UAND000308_SAND000313_File Pool%% -->
+          <item name="provider">Hotmail</item>
+          <item name="inprotocol">EAS</item>
+          <item name="description">outlookcomAccountDesc</item>
+          <item name="resid">icon_launcher_outlook</item>
+        </set>
+        <set name="plenty" max="10">
+          <!-- %%UAND000308_SAND000313_File Pool%% -->
+          <item name="provider">Yahoo</item>
+          <item name="domain">yahoo.com</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="description">yahooAccountDesc</item>
+          <item name="resid">icon_launcher_yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <!-- %%UAND000308_SAND000313_File Pool%% -->
+          <item name="provider">AOL</item>
+          <item name="domain">aol.com</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="description">aolAccountDesc</item>
+          <item name="resid">icon_launcher_aol_black</item>
+        </set>
+        <set name="plenty" max="10">
+          <!-- %%UAND000308_SAND000313_File Pool%% -->
+          <item name="provider">Verizon.Net</item>
+          <item name="domain">verizon.net</item>
+          <item name="inprotocol">POP</item>
+          <item name="description">Verizon.Net</item>
+          <item name="resid">icon_launcher_verizon_net</item>
+        </set>
+        <set name="plenty" max="10">
+          <!-- %%UAND000308_SAND000313_File Pool%% -->
+          <item name="provider">Microsoft Exchange ActiveSync</item>
+          <item name="inprotocol">EAS</item>
+          <item name="description">exchangeAccountDesc</item>
+          <item name="resid">icon_launcher_active_sync</item>
+        </set>
+        <set name="plenty" max="10">
+          <!-- %%UAND000308_SAND000313_File Pool%% -->
+          <item name="provider">Other</item>
+          <item name="inprotocol">OTHER</item>
+          <item name="description">otherAccountDesc</item>
+          <item name="resid">icon_launcher_mail</item>
+        </set>
+      </function>
+      <function name="provider_setting">
+        <set name="plenty" max="10">
+          <item name="provider">Yahoo</item>
+          <item name="domain">yahoo.com</item>
+          <item name="inserver">imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">AT&amp;T</item>
+          <item name="domain">att.yahoo.com</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.att.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">1and1.com</item>
+          <item name="domain">1and1.com</item>
+          <item name="inserver">pop.1and1.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.1and1.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">1and1.com</item>
+          <item name="domain">1and1.com</item>
+          <item name="inserver">imap.1and1.com</item>
+          <item name="inport">143</item>
+          <item name="outserver">smtp.1and1.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Adelphia</item>
+          <item name="domain">adelphia.net</item>
+          <item name="inserver">mail.adelphia.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.adelphia.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Airmail.com</item>
+          <item name="domain">airmail.com</item>
+          <item name="inserver">pop3.airmail.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.airmail.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Ameritech</item>
+          <item name="domain">ameritech.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.att.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Bellatlantic.net</item>
+          <item name="domain">bellatlantic.net</item>
+          <item name="inserver">pop.verizon.net</item>
+          <item name="inport">995</item>
+          <item name="outserver">smtp.verizon.net</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Bell South</item>
+          <item name="domain">bellsouth.net</item>
+          <item name="inserver">mail.bellsouth.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.bellsouth.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Cable One</item>
+          <item name="domain">cableone.net</item>
+          <item name="inserver">pop.gmail.com</item>
+          <item name="inport">995</item>
+          <item name="outserver">smtp.gmail.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Cablevision</item>
+          <item name="domain">optimum.net</item>
+          <item name="inserver">mail.optimum.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.optimum.net</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Centurylink</item>
+          <item name="domain">centurylink.net</item>
+          <item name="inserver">pop.centurylink.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.centurylink.net</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Charter</item>
+          <item name="domain">charter.net</item>
+          <item name="inserver">pop.charter.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.charter.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Clearwire</item>
+          <item name="domain">clearwire.net</item>
+          <item name="inserver">pop.gmail.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.gmail.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Comcast</item>
+          <item name="domain">comcast.net</item>
+          <item name="inserver">mail.comcast.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.comcast.net</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">ComNetcom.net</item>
+          <item name="domain">ix.netcom.com</item>
+          <item name="inserver">pop.comnetcom.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.comnetcom.net</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">ComNetcom.net</item>
+          <item name="domain">comnetcom.net</item>
+          <item name="inserver">pop.comnetcom.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.comnetcom.net</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Compuserve Classic</item>
+          <item name="domain">compuserve.com</item>
+          <item name="inserver">pop.compuserve.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.compuserve.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Concentric</item>
+          <item name="domain">concentric.net</item>
+          <item name="inserver">pop3.concentric.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.concentric.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Coqui</item>
+          <item name="domain">coqui.net</item>
+          <item name="inserver">pop.coqui.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.coqui.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Covad</item>
+          <item name="domain">covad.net</item>
+          <item name="inserver">pop3.covad.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.covad.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Cox Central</item>
+          <item name="domain">cox.net</item>
+          <item name="inserver">pop.central.cox.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.central.cox.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Cox Business</item>
+          <item name="domain">coxmail.com</item>
+          <item name="inserver">pop.coxmail.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.coxmail.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Earthlink</item>
+          <item name="domain">earthlink.net</item>
+          <item name="inserver">pop.earthlink.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.earthlink.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Embarq</item>
+          <item name="domain">embarqmail.com</item>
+          <item name="inserver">pop.embarqmail.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.embarqmail.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Eudora</item>
+          <item name="domain">speakeasy.net</item>
+          <item name="inserver">mail.speakeasy.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.speakeasy.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Excite</item>
+          <item name="domain">excite.com</item>
+          <item name="inserver">pop3.excite.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.excite.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Flash</item>
+          <item name="domain">flash.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">GTE.net</item>
+          <item name="domain">gte.net</item>
+          <item name="inserver">pop.verizon.net</item>
+          <item name="inport">995</item>
+          <item name="outserver">smtp.verizon.net</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Mindspring</item>
+          <item name="domain">mindspring.com</item>
+          <item name="inserver">pop.mindspring.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.mindspring.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">mMode</item>
+          <item name="domain">mymmode.com</item>
+          <item name="inserver">pop.mymmode.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.mymode.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Usa.net</item>
+          <item name="domain">usa.net</item>
+          <item name="inserver">pop.netaddress.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.netaddress.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">NetZero</item>
+          <item name="domain">netzero.com</item>
+          <item name="inserver">pop.netzero.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.netzero.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">NVBell</item>
+          <item name="domain">nvbell.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">OptOnline</item>
+          <item name="domain">optonline.net</item>
+          <item name="inserver">mail.optonline.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.optonline.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">PacBell</item>
+          <item name="domain">pacbell.yahoo.com</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Pipeline</item>
+          <item name="domain">pipeline.com</item>
+          <item name="inserver">pop.pipeline.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtpauth.earthlink.net</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Prodigy</item>
+          <item name="domain">prodigy.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">sbcglobal.net</item>
+          <item name="domain">sbcglobal.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">snet.net</item>
+          <item name="domain">snet.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Surewest</item>
+          <item name="domain">surewest.net</item>
+          <item name="inserver">pop.surewest.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.surewest.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">swbell.net</item>
+          <item name="domain">swbell.net</item>
+          <item name="inserver">android.imap.mail.yahoo.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">US Army</item>
+          <item name="domain">usarmy.mil</item>
+          <item name="inserver">pop.us.army.mil</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.us.army.mil</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Verizon</item>
+          <item name="domain">verizon.net</item>
+          <item name="inserver">pop.verizon.net</item>
+          <item name="inport">995</item>
+          <item name="outserver">smtp.verizon.net</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Verizon.Net</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Gmail</item>
+          <item name="domain">gmail.com</item>
+          <item name="inserver">imap.gmail.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.gmail.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Gmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Google Mail</item>
+          <item name="domain">googlemail.com</item>
+          <item name="inserver">imap.gmail.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.gmail.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Gmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">PChome</item>
+          <item name="domain">pchome.com.tw</item>
+          <item name="inserver">pop3.pchome.com.tw</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.pchome.com.tw</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Hotmail</item>
+          <item name="domain">hotmail.com</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Hotmail</item>
+          <item name="domain">msn.com</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Hotmail</item>
+          <item name="domain">live.com</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Hotmail</item>
+          <item name="domain">livemail.tw</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">AOL</item>
+          <item name="domain">aol.tw</item>
+          <item name="inserver">imap.aol.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.aol.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">AOL</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">AOL UK</item>
+          <item name="domain">aol.co.uk</item>
+          <item name="inserver">imap.aim.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.aim.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">AOL</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Lycos</item>
+          <item name="domain">lycos.com</item>
+          <item name="inserver">pop.mail.lycos.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.mail.lycos.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Netscape</item>
+          <item name="domain">netscape.com</item>
+          <item name="inserver">pop.3.isp.netscape.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.isp.netscape.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">HtcTaoMail</item>
+          <item name="domain">htc.com.tao</item>
+          <item name="inserver">taomail.htc.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">taomail.htc.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">HtcTpeMail</item>
+          <item name="domain">htc.com.tpe</item>
+          <item name="inserver">tpemail.htc.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">tpemail.htc.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">YahooTW</item>
+          <item name="domain">yahoo.com.tw</item>
+          <item name="inserver">pop.mail.yahoo.com</item>
+          <item name="inport">995</item>
+          <item name="outserver">android.smtp.mail.yahoo.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">YahooHK</item>
+          <item name="domain">yahoo.com.hk</item>
+          <item name="inserver">pop.mail.yahoo.com.hk</item>
+          <item name="inport">995</item>
+          <item name="outserver">android.smtp.mail.yahoo.com.hk</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">YahooUK</item>
+          <item name="domain">yahoo.co.uk</item>
+          <item name="inserver">pop.mail.yahoo.co.uk</item>
+          <item name="inport">995</item>
+          <item name="outserver">smtp.mail.yahoo.co.uk</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">YahooFR</item>
+          <item name="domain">yahoo.fr</item>
+          <item name="inserver">pop.mail.yahoo.fr</item>
+          <item name="inport">995</item>
+          <item name="outserver">smtp.mail.yahoo.fr</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Yahoo</item>
+          <item name="domain">yahoo.de</item>
+          <item name="inserver">pop.mail.yahoo.de</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.mail.yahoo.de</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Yahoo</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Mac</item>
+          <item name="domain">me.com</item>
+          <item name="inserver">mail.me.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.me.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Mac</item>
+          <item name="domain">me.com</item>
+          <item name="inserver">mail.mac.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.mac.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Mac</item>
+          <item name="domain">mac.com</item>
+          <item name="inserver">mail.mac.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.mac.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">AOL</item>
+          <item name="domain">aol.com</item>
+          <item name="inserver">imap.aim.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp.aim.com</item>
+          <item name="outport">465</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">1</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">AOL</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">AOL</item>
+          <item name="domain">aol.tw</item>
+          <item name="inserver">imap.aol.com</item>
+          <item name="inport">143</item>
+          <item name="outserver">smtp.aol.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">AOL</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">AOL</item>
+          <item name="domain">aim.com</item>
+          <item name="inserver">imap.aim.com</item>
+          <item name="inport">143</item>
+          <item name="outserver">smtp.aim.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">AOL</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Hinet</item>
+          <item name="domain">msa.hinet.net</item>
+          <item name="inserver">msa.hinet.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">msa.hinet.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">0</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">MSN</item>
+          <item name="domain">msn.co.uk</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Hotmail</item>
+          <item name="domain">hotmail.co.uk</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Live</item>
+          <item name="domain">live.co.uk</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+          <item name="providerGroup">Hotmail</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Orangehome.co.uk</item>
+          <item name="domain">orangehome.co.uk</item>
+          <item name="inserver">pop.orangehome.co.uk</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.orangehome.co.uk</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Wanadoo.co.uk</item>
+          <item name="domain">wanadoo.co.uk</item>
+          <item name="inserver">pop.wanadoo.co.uk</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.wanadoo.co.uk</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Btinternet.com</item>
+          <item name="domain">btinternet.com</item>
+          <item name="inserver">pop3.btinternet.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.btinternet.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Ntlworld.com</item>
+          <item name="domain">ntlworld.com</item>
+          <item name="inserver">pop3.ntlworld.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.ntlworld.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Blueyonder.co.uk</item>
+          <item name="domain">blueyonder.co.uk</item>
+          <item name="inserver">pop3.blueyonder.co.uk</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.blueyonder.co.uk</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Virgin.net</item>
+          <item name="domain">virgin.net</item>
+          <item name="inserver">pop.virgin.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.virgin.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Tiscali.co.uk</item>
+          <item name="domain">tiscali.co.uk</item>
+          <item name="inserver">pop.tiscali.co.uk</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.tiscali.co.uk</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Lineone.net</item>
+          <item name="domain">lineone.net</item>
+          <item name="inserver">pop3.lineone.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.lineone.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Free.fr</item>
+          <item name="domain">free.fr</item>
+          <item name="inserver">pop3.free.fr</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.free.fr</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Neuf.fr</item>
+          <item name="domain">neuf.fr</item>
+          <item name="inserver">pop.neuf.fr</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.neuf.fr</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Mobistarmail.be</item>
+          <item name="domain">mobistarmail.be</item>
+          <item name="inserver">pop.mobistarmail.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.mobistarmail.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Skynet.be</item>
+          <item name="domain">skynet.be</item>
+          <item name="inserver">pop.skynet.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.skynet.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Beigacom.net</item>
+          <item name="domain">beigacom.net</item>
+          <item name="inserver">pop.beigacom.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">relay.beigacom.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Swing.be</item>
+          <item name="domain">swing.be</item>
+          <item name="inserver">pop.swing.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.swing.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Telenet.be</item>
+          <item name="domain">telenet.be</item>
+          <item name="inserver">pop.telenet.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.telenet.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Pandora.be</item>
+          <item name="domain">pandora.be</item>
+          <item name="inserver">in.pandora.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.pandora.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Chello.be</item>
+          <item name="domain">chello.be</item>
+          <item name="inserver">mail.chello.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">relay.chello.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Voo.be</item>
+          <item name="domain">voo.be</item>
+          <item name="inserver">pop.voo.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.voo.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Brutele.be</item>
+          <item name="domain">brutele.be</item>
+          <item name="inserver">pop.voo.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.brutele.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Teledisnet.be</item>
+          <item name="domain">teledisnet.be</item>
+          <item name="inserver">pop.teledisnet.be</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.teledisnet.be</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Correo Orange</item>
+          <item name="domain">orange.es</item>
+          <item name="inserver">pop.orange.es</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.orange.es</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Tin.it</item>
+          <item name="domain">tin.it</item>
+          <item name="inserver">box.tin.it</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.tin.it</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Planet Internet</item>
+          <item name="domain">planet.nl</item>
+          <item name="inserver">pop.planet.nl</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.planet.nl</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Tiscali</item>
+          <item name="domain">tiscali.nl</item>
+          <item name="inserver">pop3.tiscali.nl</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.tiscali.nl</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Versatel</item>
+          <item name="domain">versatel.nl</item>
+          <item name="inserver">pop3.versatel.nl</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.versatel.nl</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">SingNet</item>
+          <item name="domain">singnet.com.sg</item>
+          <item name="inserver">pop.singnet.com.sg</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.singnet.com.sg</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">GMX UK</item>
+          <item name="domain">gmx.co.uk</item>
+          <item name="inserver">imap.gmx.com</item>
+          <item name="inport">143</item>
+          <item name="outserver">mail.gmx.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">GMX</item>
+          <item name="domain">gmx.com</item>
+          <item name="inserver">imap.gmx.com</item>
+          <item name="inport">143</item>
+          <item name="outserver">mail.gmx.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">inbox.com</item>
+          <item name="domain">inbox.com</item>
+          <item name="inserver">my.inbox.com</item>
+          <item name="inport">110</item>
+          <item name="outserver">my.inbox.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">O2 UK</item>
+          <item name="domain">o2.co.uk</item>
+          <item name="inserver">mail.o2.co.uk</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.o2.co.uk</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">OptOnline</item>
+          <item name="domain">optonline.com</item>
+          <item name="inserver">mail.optimum.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">smtp.optonline.net</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Outlook</item>
+          <item name="domain">outlook.com</item>
+          <item name="inserver">imap-mail.outlook.com</item>
+          <item name="inport">993</item>
+          <item name="outserver">smtp-mail.outlook.com</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">1</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Cablevision</item>
+          <item name="domain">optonline.net</item>
+          <item name="inserver">mail.optonline.net</item>
+          <item name="inport">110</item>
+          <item name="outserver">mail.optonline.net</item>
+          <item name="outport">587</item>
+          <item name="inprotocol">POP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">2</item>
+          <item name="smtpauth">1</item>
+        </set>
+        <set name="plenty" max="10">
+          <item name="provider">Compuserve</item>
+          <item name="domain">cs.com</item>
+          <item name="inserver">imap.cs.com</item>
+          <item name="inport">143</item>
+          <item name="outserver">smtp.cs.com</item>
+          <item name="outport">25</item>
+          <item name="inprotocol">IMAP</item>
+          <item name="useSSLin">0</item>
+          <item name="useSSLout">0</item>
+          <item name="smtpauth">1</item>
+        </set>
+      </function>
+      <function name="mail_common_setting">
+        <set name="plenty" max="20">
+          <item name="useSignature">1</item>
+          <item name="emailnotifications">1</item>
+          <item name="sizelimit">3</item>
+          <item name="fetchMailType">1</item>
+          <item name="fetchMailDays">4</item>
+          <item name="fetchMailNum">0</item>
+          <item name="deleteFromServer">1</item>
+          <item name="alwaysBccMyself">0</item>
+          <item name="askBeforeDelete">1</item>
+          <item name="vibrate">0</item>
+          <item name="sound">0</item>
+          <item name="replyWithText">1</item>
+          <item name="syncSchedulePeakOn">3</item>
+          <item name="syncSchedulePeakOff">3</item>
+          <item name="peakDays">127</item>
+          <item name="peakTimeStart">300</item>
+          <item name="peakTimeEnd">1260</item>
+          <item name="attachmentBlockSize">1000</item>
+          <item name="urlUnderline">1</item>
+          <item name="maxOutgoingRetryCount">3</item>
+          <item name="maxIORetryCount">0</item>
+          <item name="fetchPOPMailType">0</item>
+          <item name="fetchPOPMailNum">0</item>
+        </set>
+      </function>
+      <function name="eas_sync_option">
+        <set name="plenty" max="10">
+          <item name="conflict_resolving">0</item>
+          <item name="mail_filter_type">4</item>
+          <item name="mail_truncation_size">6</item>
+          <item name="mail_body_type">2</item>
+          <item name="mail_attachment_opt">0</item>
+          <item name="cal_filter_type">4</item>
+          <item name="use_ssl">1</item>
+          <item name="syncSchedulePeakOn">1</item>
+          <item name="syncSchedulePeakOff">4</item>
+          <item name="peakDays">31</item>
+          <item name="peakTimeStart">300</item>
+          <item name="peakTimeEnd">1260</item>
+          <item name="mail_truncation_mime_size">5</item>
+        </set>
+      </function>
+    </module>
+    <module name="Launcher">
+      <function name="quick_launch_customization">
+        <set name="single" max="1">
+          <item name="file">system/customize/resource/quicklaunch.xml</item>
+        </set>
+      </function>
+      <function name="all_applications_customization">
+        <set name="single" max="1">
+          <item name="file">system/customize/resource/allapplication.xml</item>
+        </set>
+      </function>
+      <function name="extra_wallpapers">
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_00.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_01.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_02.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_03.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_04.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_05.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_06.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_07.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_08.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_09.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_10.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_11.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_12.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_13.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_14.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_15.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_16.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_17.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_18.jpg</item>
+        </set>
+        <set name="plenty" max="10">
+          <item type="file_name" name="image">wallpapers_19.jpg</item>
+        </set>
+      </function>
+      <function name="applications_hide">
+        <set name="plenty" max="7">
+          <item name="package">com.htc.stock</item>
+          <item name="class">com.htc.stock.ui.HomeActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.soundrecorder</item>
+          <item name="class">com.htc.soundrecorder.SoundRecorderBG</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">tunein.player</item>
+          <item name="class">tunein.player.Activity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.pdfviewer</item>
+          <item name="class">com.htc.pdfviewer.ActPDFReader</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.showme</item>
+          <item name="class">com.htc.showme.ui.MainPage</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.android.voicedialer</item>
+          <item name="class">com.android.voicedialer.VoiceDialerActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.mocana.vpn.android.gui</item>
+          <item name="class">com.mocana.vpn.android.gui.activity.MocanaVPNStartActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.Weather</item>
+          <item name="class">com.htc.Weather.WeatherEntry</item>
+          <item name="flags">0</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.match</item>
+          <item name="class">com.htc.match.InitializeActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.guide</item>
+          <item name="class">com.htc.guide.MainActivity</item>
+          <item name="flags">0</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.launcher</item>
+          <item name="class">com.htc.themepicker.AssetBrowsingActivity</item>
+          <item name="flags">0</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.dotmatrix</item>
+          <item name="class">com.htc.dotmatrix.ui.DotViewSettingActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.mobilesrepublic.appy</item>
+          <item name="class">com.mobilesrepublic.appy.SplashActivity</item>
+          <item name="flags">0</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.infraware.office.link</item>
+          <item name="class">com.infraware.office.link.MainActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.android.htcsetupwizard</item>
+          <item name="class">com.htc.android.htcsetupwizard.SetupWizardActivity</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.WifiRouter</item>
+          <item name="class">com.htc.WifiRouter.Intro</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.emoji.keyboard.touchpal</item>
+          <item name="class">NA</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.sense.mms</item>
+          <item name="class">com.htc.sense.mms.ui.CmasListActivityShortCut</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.htc.iceview</item>
+          <item name="class">com.htc.iceview.IceViewSettings</item>
+          <item name="flags">0</item>
+        </set>
+      </function>
+      <function name="app_widgets_hide">
+        <set name="plenty" max="7">
+          <item name="package">com.mobilesrepublic.appy</item>
+          <item name="class">com.mobilesrepublic.appy.appwidget.v3.WidgetProvider</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.mobilesrepublic.appy</item>
+          <item name="class">com.mobilesrepublic.appy.appwidget.v11.WidgetListProvider</item>
+        </set>
+        <set name="plenty" max="7">
+          <item name="package">com.mobilesrepublic.appy</item>
+          <item name="class">com.mobilesrepublic.appy.appwidget.v11.WidgetStackProvider</item>
+        </set>
+      </function>
+      <function name="contextual_widget_customization">
+        <set name="single" max="1">
+          <item name="file">system/customize/resource/contextualwidget.xml</item>
+        </set>
+      </function>
+      <function name="scene_list">
+        <set name="plenty" max="1">
+          <item name="scenename">HTC</item>
+          <item name="pages_count">3</item>
+          <item name="home_index">1</item>
+          <item name="feed_index">0</item>
+        </set>
+      </function>
+      <function name="1_folders">
+        <set name="plenty">
+          <item name="title">Google</item>
+          <item name="screen">1</item>
+          <item name="x">2</item>
+          <item name="y">3</item>
+        </set>
+        <set name="plenty">
+          <item name="title">Verizon</item>
+          <item name="screen">2</item>
+          <item name="x">1</item>
+          <item name="y">3</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.googlequicksearchbox</item>
+          <item name="class">com.google.android.googlequicksearchbox.SearchActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.gm</item>
+          <item name="class">com.google.android.gm.ConversationListActivityGmail</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.maps</item>
+          <item name="class">com.google.android.maps.MapsActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.youtube</item>
+          <item name="class">com.google.android.youtube.app.honeycomb.Shell$HomeActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.docs</item>
+          <item name="class">com.google.android.apps.docs.app.NewMainProxyActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.music</item>
+          <item name="class">com.android.music.activitymanagement.TopLevelActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.videos</item>
+          <item name="class">com.google.android.youtube.videos.EntryPoint</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.talk</item>
+          <item name="class">com.google.android.talk.SigningInActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.googlequicksearchbox</item>
+          <item name="class">com.google.android.googlequicksearchbox.VoiceSearchActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Google</item>
+          <item name="package">com.google.android.apps.walletnfcrel</item>
+          <item name="class">com.google.commerce.tapandpay.android.cardlist.CardListActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.vcast.mediamanager</item>
+          <item name="class">com.vcast.mediamanager.gui.activities.SplashLogoActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.cequint.ecid</item>
+          <item name="class">com.cequint.hs.client.frontend.WebShell</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.vzw.hss.myverizon</item>
+          <item name="class">com.vzw.hss.myverizon.ui.activities.LauncherActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.slacker.radio</item>
+          <item name="class">com.slacker.gui.pivot.activities.PreLaunchActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.asurion.android.verizon.vms</item>
+          <item name="class">com.asurion.android.verizon.vmsp.activity.MainActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.vznavigator.Generic</item>
+          <item name="class">com.vznavigator.Generic.Generic</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="parent">Verizon</item>
+          <item name="package">com.gotv.nflgamecenter.us.lite</item>
+          <item name="class">com.nfl.mobile.SplashActivity</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="1_shortcuts">
+        <set name="plenty">
+          <item name="package">com.android.vending</item>
+          <item name="class">com.android.vending.AssetBrowserActivity</item>
+          <item name="screen">1</item>
+          <item name="x">1</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.android.mail</item>
+          <item name="class">com.htc.android.mail.MultipleActivitiesMain</item>
+          <item name="screen">1</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.amazon.mShop.android</item>
+          <item name="class">com.amazon.mShop.home.HomeActivity</item>
+          <item name="screen">2</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.sense.mms</item>
+          <item name="class">com.htc.sense.mms.ui.VoiceMailTabActivity</item>
+          <item name="screen">2</item>
+          <item name="x">2</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.google.android.calendar</item>
+          <item name="class">com.android.calendar.AllInOneActivity</item>
+          <item name="screen">2</item>
+          <item name="x">3</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.google.android.apps.photos</item>
+          <item name="class">com.google.android.apps.photos.home.HomeActivity</item>
+          <item name="screen">1</item>
+          <item name="x">0</item>
+          <item name="y">3</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+      <function name="1_app_widgets">
+        <set name="plenty" max="19">
+          <item name="package_name">com.google.android.googlequicksearchbox</item>
+          <item name="app_widget_provider">com.google.android.googlequicksearchbox.SearchWidgetProvider</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">1</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+        <set name="plenty" max="19">
+          <item name="package_name">com.htc.widget.weatherclock</item>
+          <item name="app_widget_provider">com.htc.widget.weatherclock.WeatherTransClock4x1</item>
+          <item name="screen">1</item>
+          <item name="cell_x">0</item>
+          <item name="cell_y">0</item>
+          <item name="span_x">4</item>
+          <item name="span_y">1</item>
+        </set>
+      </function>
+    </module>
+    <module name="PowerSavingLauncher">
+      <function name="1_shortcuts">
+        <set name="plenty">
+          <item name="package">com.htc.contacts</item>
+          <item name="class">com.htc.contacts.DialerTabActivity</item>
+          <item name="screen">0</item>
+          <item name="x">0</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.sense.mms</item>
+          <item name="class">com.htc.sense.mms.ui.ConversationList</item>
+          <item name="screen">0</item>
+          <item name="x">1</item>
+          <item name="y">0</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.android.mail</item>
+          <item name="class">com.htc.android.mail.MultipleActivitiesMain</item>
+          <item name="screen">0</item>
+          <item name="x">0</item>
+          <item name="y">1</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.google.android.calendar</item>
+          <item name="class">com.android.calendar.AllInOneActivity</item>
+          <item name="screen">0</item>
+          <item name="x">1</item>
+          <item name="y">1</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.sense.mms</item>
+          <item name="class">com.htc.sense.mms.ui.CmasListActivityShortCut</item>
+          <item name="screen">0</item>
+          <item name="x">0</item>
+          <item name="y">2</item>
+          <item name="itemtype">0</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.powersavinglauncher</item>
+          <item name="class">com.htc.powersavinglauncher.Launcher$Exit</item>
+          <item name="screen">0</item>
+          <item name="x">1</item>
+          <item name="y">2</item>
+          <item name="itemtype">0</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="extra_ringtones">
+        <set name="plenty">
+          <item name="ringtone">VZW_Airwaves_1.mp3</item>
+        </set>
+      </function>
+      <function name="resource_path">
+        <set name="single" max="1">
+          <item name="path">/system/customize/resource/</item>
+        </set>
+      </function>
+    </module>
+    <module name="Chrome">
+      <function name="bookmarks_folder_name">
+        <set name="single">
+          <item name="value">Verizon</item>
+        </set>
+      </function>
+      <function name="homepage">
+        <set name="single">
+          <item name="url">http://www.google.com</item>
+        </set>
+      </function>
+      <function name="immutable_bookmarks">
+        <set name="single">
+          <item name="value">true</item>
+        </set>
+      </function>
+      <function name="bookmark">
+        <set name="plenty">
+          <item name="title">Google</item>
+          <item name="url">http://www.google.com</item>
+        </set>
+        <set name="plenty">
+          <item name="title">Mobile Web</item>
+          <item name="url">http://smart.myvzw.com</item>
+        </set>
+        <set name="plenty">
+          <item name="title">LeeDrOiD</item>
+          <item name="url">http://www.leedroid.co.uk</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="system">
+    <module name="defaultTimeFormatSetting">
+      <function>
+        <set name="single">
+          <item name="default">EE, MMM d, yyyy</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultTimeFormatSettingShort">
+      <function>
+        <set name="single">
+          <item name="default">EE, MMM d</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultInputMethod">
+      <function name="default_IME_keyboard_type">
+        <set name="single">
+          <item name="default">2</item>
+        </set>
+      </function>
+      <function name="default_IKB_settings_checked">
+        <set name="single">
+          <item name="checked_list_latin">English;</item>
+        </set>
+      </function>
+    </module>
+    <module name="defaultLocale">
+      <function>
+        <set name="single">
+          <item name="auto_detect">false</item>
+          <item name="defeault">en_US</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="force_change">
+    <module name="MMS">
+      <function name="ua_string">
+        <set name="single">
+          <item name="value">htc6545lvw</item>
+        </set>
+      </function>
+      <function name="ua_profile">
+        <set name="single">
+          <item name="value">http://uaprof.vtext.com/htc/htc6545lvw/htc6545lvw.xml</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Sound">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_ringtone">file:///system/customize/resource/VZW_Airwaves_1.mp3</item>
+          <item name="def_ringtone_mode_cdma">file:///system/customize/resource/VZW_Airwaves_1.mp3</item>
+          <item name="def_ringtone_mode_wcdma">file:///system/customize/resource/VZW_Airwaves_1.mp3</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

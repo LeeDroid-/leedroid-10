@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contextualWidget interval="1">
+  <customize_sort>
+    <item type="application" packageName="com.htc.launcher" className="com.htc.themepicker.AssetBrowsingActivity" display_order="10" contextual_widget_mode="HomeLife" />
+    <item type="application" packageName="com.google.android.calendar" className="com.android.calendar.AllInOneActivity" display_order="20" contextual_widget_mode="HomeLife" />
+    <item type="application" packageName="com.android.calculator2" className="com.android.calculator2.Calculator" display_order="30" contextual_widget_mode="HomeLife" />
+    <item type="application" packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" display_order="40" contextual_widget_mode="HomeLife" />
+    <item type="application" packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity" display_order="60" contextual_widget_mode="HomeLife" />
+    <item type="application" packageName="com.htc.android.mail" className="com.htc.android.mail.MultipleActivitiesMain" display_order="10" contextual_widget_mode="WorkTime" />
+    <item type="application" packageName="com.google.android.calendar" className="com.android.calendar.AllInOneActivity" display_order="20" contextual_widget_mode="WorkTime" />
+    <item type="application" packageName="com.android.calculator2" className="com.android.calculator2.Calculator" display_order="30" contextual_widget_mode="WorkTime" />
+    <item type="application" packageName="com.google.android.apps.docs" className="com.google.android.apps.docs.app.NewMainProxyActivity" display_order="40" contextual_widget_mode="WorkTime" />
+    <item type="application" packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity" display_order="60" contextual_widget_mode="WorkTime" />
+    <item type="application" packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" display_order="10" contextual_widget_mode="GettingOut" />
+    <item type="application" packageName="com.google.android.calendar" className="com.android.calendar.AllInOneActivity" display_order="20" contextual_widget_mode="GettingOut" />
+    <item type="application" packageName="com.android.calculator2" className="com.android.calculator2.Calculator" display_order="30" contextual_widget_mode="GettingOut" />
+    <item type="application" packageName="com.google.android.music" className="com.android.music.activitymanagement.TopLevelActivity" display_order="40" contextual_widget_mode="GettingOut" />
+    <item type="application" packageName="com.android.vending" className="com.android.vending.AssetBrowserActivity" display_order="60" contextual_widget_mode="GettingOut" />
+    <item type="folder" folder_id="Google_HomeLife" folder_title="Google" display_order="50" contextual_widget_mode="HomeLife" />
+    <item type="folder" folder_id="Google_WorkTime" folder_title="Google" display_order="50" contextual_widget_mode="WorkTime" />
+    <item type="folder" folder_id="Google_GettingOut" folder_title="Google" display_order="50" contextual_widget_mode="GettingOut" />
+    <item type="application" packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchActivity" display_order="15" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" display_order="25" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" display_order="35" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.music" className="com.android.music.activitymanagement.TopLevelActivity" display_order="55" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" display_order="65" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" display_order="75" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.apps.photos" className="com.google.android.apps.photos.home.HomeActivity" display_order="85" container="Google_HomeLife" />
+    <item type="application" packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchActivity" display_order="15" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" display_order="25" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.apps.maps" className="com.google.android.maps.MapsActivity" display_order="35" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" display_order="45" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.music" className="com.android.music.activitymanagement.TopLevelActivity" display_order="65" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" display_order="75" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" display_order="85" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.apps.photos" className="com.google.android.apps.photos.home.HomeActivity" display_order="95" container="Google_WorkTime" />
+    <item type="application" packageName="com.google.android.googlequicksearchbox" className="com.google.android.googlequicksearchbox.SearchActivity" display_order="15" container="Google_GettingOut" />
+    <item type="application" packageName="com.google.android.gm" className="com.google.android.gm.ConversationListActivityGmail" display_order="25" container="Google_GettingOut" />
+    <item type="application" packageName="com.google.android.youtube" className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity" display_order="45" container="Google_GettingOut" />
+    <item type="application" packageName="com.google.android.videos" className="com.google.android.youtube.videos.EntryPoint" display_order="75" container="Google_GettingOut" />
+    <item type="application" packageName="com.google.android.talk" className="com.google.android.talk.SigningInActivity" display_order="85" container="Google_GettingOut" />
+    <item type="application" packageName="com.google.android.apps.photos" className="com.google.android.apps.photos.home.HomeActivity" display_order="95" container="Google_GettingOut" />
+  </customize_sort>
+</contextualWidget>

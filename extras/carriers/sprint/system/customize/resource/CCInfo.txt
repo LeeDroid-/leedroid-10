@@ -1,0 +1,4 @@
+﻿ROM Build ID: 3043482
+ROM Name: Sprint Chameleon ROM
+SKU ID: 127368, SKU Name: Sprint Chameleon ROM default, CID: default, MNS: default
+Datetime: 2016/04/14 14:04:50

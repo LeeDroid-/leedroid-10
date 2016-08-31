@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="application">
+    <module name="FOTA">
+      <function name="settings">
+        <set name="single">
+          <item name="Enable_FOTA_UI" type="boolean">yes</item>
+          <item name="Enable_Manual_Check" type="boolean">yes</item>
+          <item name="Default_Download_Wifi" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+    <module name="roaming">
+      <function name="default_roaming">
+        <set name="plenty" max="5">
+          <item name="data_roaming">0</item>
+        </set>
+      </function>
+    </module>
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">no</item>
+          <item name="turn_off_application_log" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Settings">
+    <module name="list">
+      <function name="regulatory_generic_list">
+        <set name="single">
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="country_1">Americas</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="icon_2">/system/customize/resource/rp_fcc.png</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="text_3">FCC ID: NM82PS6500</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="text_4">IC: 4115A-2PS6500</item>
+          <!-- %%UAND000157_SAND000157_File Pool%% -->
+          <item name="icon_5">/system/customize/resource/rp_weee.png</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_htc_mobile_network_on">true</item>
+          <item name="def_2g_on">3</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="system">
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">HTC 10</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">ar_EG;ar_IL;bg_BG;ca_ES;da_DK;el_GR;en_IN;en_IE;en_US;en_CA;en_ZA;es_ES;es_US;fr_CA;fr_FR;fi_FI;hi_IN;hr_HR;hu_HU;in_ID;it_CH;iw_IL;ja_JP;ko_KR;lt_LT;lv_LV;nb_NO;pl_PL;pt_BR;pt_PT;ro_RO;ru_RU;tr_TR;sk_SK;sl_SI;sr_RS;sv_SE;th_TH;tl_PH;uk_UA;vi_VN;zh_CN;zh_TW;</item>
+          <item type="boolean" name="ar_EG">yes</item>
+          <item type="boolean" name="ar_IL">yes</item>
+          <item type="boolean" name="bg_BG">yes</item>
+          <item type="boolean" name="ca_ES">yes</item>
+          <item type="boolean" name="da_DK">yes</item>
+          <item type="boolean" name="el_GR">yes</item>
+          <item type="boolean" name="en_IN">yes</item>
+          <item type="boolean" name="en_IE">yes</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="en_CA">yes</item>
+          <item type="boolean" name="en_ZA">yes</item>
+          <item type="boolean" name="es_ES">yes</item>
+          <item type="boolean" name="es_US">yes</item>
+          <item type="boolean" name="fr_CA">yes</item>
+          <item type="boolean" name="fr_FR">yes</item>
+          <item type="boolean" name="fi_FI">yes</item>
+          <item type="boolean" name="hi_IN">yes</item>
+          <item type="boolean" name="hr_HR">yes</item>
+          <item type="boolean" name="hu_HU">yes</item>
+          <item type="boolean" name="in_ID">yes</item>
+          <item type="boolean" name="it_CH">yes</item>
+          <item type="boolean" name="iw_IL">yes</item>
+          <item type="boolean" name="ja_JP">yes</item>
+          <item type="boolean" name="ko_KR">yes</item>
+          <item type="boolean" name="lt_LT">yes</item>
+          <item type="boolean" name="lv_LV">yes</item>
+          <item type="boolean" name="nb_NO">yes</item>
+          <item type="boolean" name="pl_PL">yes</item>
+          <item type="boolean" name="pt_BR">yes</item>
+          <item type="boolean" name="pt_PT">yes</item>
+          <item type="boolean" name="ro_RO">yes</item>
+          <item type="boolean" name="ru_RU">yes</item>
+          <item type="boolean" name="tr_TR">yes</item>
+          <item type="boolean" name="sk_SK">yes</item>
+          <item type="boolean" name="sl_SI">yes</item>
+          <item type="boolean" name="sr_RS">yes</item>
+          <item type="boolean" name="sv_SE">yes</item>
+          <item type="boolean" name="th_TH">yes</item>
+          <item type="boolean" name="tl_PH">yes</item>
+          <item type="boolean" name="uk_UA">yes</item>
+          <item type="boolean" name="vi_VN">yes</item>
+          <item type="boolean" name="zh_CN">yes</item>
+          <item type="boolean" name="zh_TW">yes</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="ACC">
+    <module name="Settings">
+      <function name="settings">
+        <set>
+          <item name="enable_E911_for_US_only" type="boolean">true</item>
+        </set>
+      </function>
+    </module>
+    <module name="Camera">
+      <function name="settings">
+        <set>
+          <item name="photo_booth_skin_level" type="string">0.0</item>
+          <item name="selfie_mode_skin_level" type="string">0.0</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/hTC_bootup.zip" audio="/system/customize/resource/HTC_Sense5_Boot.mp3" audiostart="part3" audiostartframe="1" />
+    <!-- splash_screen.png -->
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" />
+  </ShutdownConfiguration>
+  <category name="AudioService">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="enable_listen_notify">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

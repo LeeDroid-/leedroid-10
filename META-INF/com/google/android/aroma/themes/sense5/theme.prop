@@ -1,0 +1,43 @@
+img.background=bg.9
+img.titlebar=titlebar.9
+img.navbar=nav.9
+img.dialog=dialog.9
+img.dialog.titlebar=dialog_titlebar.9
+img.progress=
+img.prograss.fill=
+img.selection=select.9
+img.selection.push=select_push.9
+
+img.button=button.9
+img.button.focus=button_focus.9
+img.button.push=button_press.9
+
+img.checkbox=cb
+img.checkbox.focus=cb_sel
+img.checkbox.push=cb_sel
+img.checkbox.on=cb_on
+img.checkbox.on.focus=cb_on_sel
+img.checkbox.on.push=cb_on_sel
+
+img.radio=radio
+img.radio.focus=radio_sel
+img.radio.push=radio_sel
+img.radio.on=radio_on
+img.radio.on.focus=radio_on_sel
+img.radio.on.push=radio_on_sel
+
+color.controlfg       = #000000
+color.scrollbar       = #22a6e4
+color.progressglow    = #22a6e4
+color.selectbg        = #22a6e4
+color.selectbg_g      = #22a6e4
+color.selectfg        = #000000
+
+config.roundsize             = 1
+config.button_roundsize      = 1
+config.window_roundsize      = 1
+config.transition_frame      = 5
+
+info.themename        = HTC Sense 5 - Elegancia
+info.description      = Elegancia theme for AROMA
+info.author           = V6-Maniac

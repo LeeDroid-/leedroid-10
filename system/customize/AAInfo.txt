@@ -1,0 +1,6 @@
+TaskID : 482979
+Project : PERFUME_UHL_M60_SENSE80GP
+SKU : HTC Europe[401]
+ROM Ver : 1.90.401.5
+Customization Id : 3045639
+RCMS Id : 1760

@@ -1,0 +1,261 @@
+ini_set("rom_name",             "LeeDrOiD 10");
+ini_set("rom_version",          "V2.4.2-Stable");
+ini_set("rom_date",             "August 30th 2016");
+ini_set("rom_author",           "LeeDrOiD");
+ini_set("rom_device",           "HTC 10");
+ini_set("force_colorspace","rgba");
+ini_set("dp","7");
+splash(4000, "leedroid");
+
+# SET THEME
+fontresload( "0", "ttf/DroidLogo-Regular.ttf", "12" );
+fontresload( "1", "ttf/DroidLogo-Bold.ttf", "18" ); 
+theme("sense5");
+
+viewbox(
+  "Welcome",
+    "\n\n\n\n\n"+
+    "You're about to flash\n"+
+	"\t: <b><#selectbg_g>"+ini_get("rom_name")+"</#></b>\n"+
+    "\t: <b><#selectbg_g>"+ini_get("rom_version")+"</#></b>\n"+
+    "\t: <b><#selectbg_g>"+ini_get("rom_date")+"</#></b>\n\n\n"+
+    "Press Next to continue the installation...",
+  "@icon"
+);
+textbox(
+  "ChangeLOG",
+  "LeeDrOiD Change Log",
+  "@info",
+ resread("changelog.txt")
+);
+
+agreebox(
+  "Terms Of Use",
+  "Please read the LeeDrOiD Terms of Use ...",
+  "@agreement",
+  readfile_aroma("agreement.txt"),
+  "I Agree with the Terms Of Use...",
+  "Please check the agreement..."
+);
+
+agreebox(
+  "Requirements",
+  "LeeDrOiD Requirements",
+  "@info",
+  readfile_aroma("requirements.txt"),
+  "I do meet the requirements",
+  "Please check the requirements..."
+);
+
+#Wipe Options
+selectbox(
+  "Do you wish to perform a full wipe?",
+  "Please Select:",
+   "@wipe",
+  "wipe.prop",
+  "Install w/out wiping","If you face any issues, try again with a full wipe",1,
+  "Perform a full wipe","All user data will be lost, your SD will remain in tact",0
+);
+resexec("scripts/restore.sh");
+#Install Options
+
+selectbox(
+  "Carrier Selection",
+  "<#c00><b>Note:</b></#>\nPlease select your device model\n ",
+  "@sim",
+  "carrier.prop",
+  "International",				"",1,
+  "T-Mobile US",				"",0,
+  "Verizon Wireless",			"",0,
+  "Sprint",						"",0,
+  "US Unlocked",				"",0,
+  "Telstra AU",				"",0
+);
+
+selectbox(
+  "Kernel Selection",
+  "<#c00><b>Note:</b></#>\nPlease select your additions\n ",
+  "@power",
+    "kernel.prop",
+    "HTC Default", "Default HTC Kernel", 0,
+    "CleanSlate Kernel", "Optimised and feature packed", 1
+);
+
+#Widget Removal
+checkbox(
+  "Remove HTC Widgets",
+  "<#c00><b>Note:</b></#>\nPlease select the  Widgets you want to remove\n ",
+  "@htc_green",
+  "deletewidgets.prop",
+  "HTC AutoRotate Widget",   		"",  1,
+  "HTC BackgroundData Widget",		"",  1,
+  "HTC Bluetooth Widget",      		"",  1,
+  "HTC Calendar Widgets",     		"",  0,
+  "HTC Contact Widgets",			"",  0,  
+  "HTC DataRoaming Widget",   		"",  1,
+  "HTC DataStrip Widget",     		"",  1,
+  "HTC Gps Widget",         		"",  1,
+  "HTC Hotspot Widget",         	"",  1,  
+  "HTC Music Widget",         		"",  1,  
+  "HTC MobileNetwork Widget", 		"",  1,
+  "HTC Ringtone Widget", 		    "",  1,  
+  "HTC ScreenBrightness Widget",  	"",  1,
+  "HTC ScreenTimeout Widget",     	"",  1,
+  "HTC Sync Widget",         		"",  1,  
+  "HTC WiFi Widget",           		"",  1,
+  "HTC Calculator Widget",    		"",  1
+);
+
+#Remove Apps
+checkbox(
+  "Remove Apps",
+  "<#c00><b>Note:</b></#>\nPlease select the apps you want to remove\n ",
+  "@playstore",
+  "deleteapps.prop",
+  "Google Chrome",        "",  0,
+  "Google Drive",         "",  0, 
+  "Google Gmail",         "",  0,  
+  "Google Hangouts",      "",  0,
+  "Google Maps",	  	  "",  0, 
+  "Google Search",        "",  0,
+  "Google TTS",           "",  0,
+  "Google Youtube",       "",  0,
+  "Videos",         	  "",  0,
+  "Google Music",     	  "",  0,
+  "Facebook",             "",  0,
+  "Facebook Messenger",   "",  0, 
+  "News Republic",        "",  0,  
+  "Twitter",              "",  0,
+  "HTC Ice View",	  	  "",  0,
+  "HTC Boost +",	  	  "",  0,
+  "HTC Music",	          "",  0,
+  "HTC Gallery",	  	  "",  0,
+  "HTC IME",	  		  "",  0,
+  "Google TalkBack",	  "",  0,
+  "Instagram",	  	 	  "",  0,
+  "Android Pay",	  	  "",  0,
+  "HTC Car Home",	  	  "",  0
+);
+
+#Extra Stuff
+checkbox(
+  "Misc Mods",
+  "<#c00><b>Note:</b></#>\nPlease select your additions\n ",
+  "@personalize",
+    "custom.prop",
+	"Disable Boot Audio", "", 0,
+    "Exchange Hack", "Disable the need for pin on corporate emails", 1,
+	"Audio Boost", " ", 0,
+	"Selinux Permissive", "Less secure", 0
+);
+
+#PNP
+selectbox(
+  "Misc Mods",
+  "<#c00><b>Note:</b></#>\nPlease select your additions\n ",
+  "@personalize",
+    "pnp.prop",
+	"Stock",				"",		1,
+	"Balanced v17",	    	"Improves battery (may cause stutters)",		0,
+	"Performance v17",	    "Better performance at the cost of battery",	0,
+	"GhostPepper v2",	    "Extremely smooth transitions and great battery life ",	0,
+	"ButterFly v1",	 	    "Smoothness performance with modest battery savings",	0 
+);
+
+#Extra Stuff
+checkbox(
+  "LeeDrOiD Tweaks",
+  "<#c00><b>Note:</b></#>\nPlease select your defaults\n ",
+  "@tweaks",
+    "tweaks.prop",
+    "China Sense recent apps", "Improved UI with kill-all & RAM ", 1,
+    "China Sense", "Slightly different interface with no app drawer ", 0,
+	"Ambient Display", "Enable Doze / Ambient display mode", 1,
+	"Squared Caller Photo", "A large square caller photo", 0,
+	"Flashlight Shortcut", "Flashlight in power menu", 0,
+	"Charging LED", "Notifications flash whilst charging LED is on", 1,
+	"Show NFC Icon", "Show or hide the NFC icon", 0,
+	"Show 4G instead of LTE", "Network data icon", 1,
+	"Enhanced MM Permissions", "Enhanced permissions with timer", 0,
+	"Add Navigation Bar", "Removed capacitive keys", 0,
+	"ADB MTP USB Mode", "ADB only is default", 0,
+	"Enable Fast Dormancy", "Faster network switching", 1,
+	"Stock Android LockScreen", "Wake gestures will be lost when removing HTC lockscreen",  0
+);
+
+if 
+	prop("wipe.prop","selected.0") != "2"
+then
+#dalvik
+selectbox(
+  "Clean or Dirty",
+  "<#c00><b>Note:</b></#>\nPlease select your additions\n ",
+  "@wipe",
+    "dalvik.prop",
+    "Wipe Dalvik", "The clean option", 0,
+    "Dirty Update", "Quicker but may still clear partial dalvik if framework is updated", 1
+);
+endif;
+
+#encryption Options
+selectbox(
+  "Do you wish to encrypt data?",
+  "Please Select:",
+   "@wipe",
+  "encrypt.prop",
+  
+  "Force Encryption","Force /data encryption",1,
+  "Run unencrypted","this will only work after formatting internal storage",0
+);
+
+viewbox(
+  "LeeDrOiD Installer",
+  "All required information has been collected .\n\n"+
+  "press <b>Next</b> to start the installation..."+
+  "if you want to review or change any of your installation settings, press <b>Back</b>.",
+  "@info"
+);
+
+setvar("retstatus",
+install(
+  "Installing",
+  "installing <b>" + ini_get("rom_name") + " " + ini_get("rom_version") + "</b>" +
+  "...\nplease wait until it's finished...",
+  "@install")
+  );
+
+#set Next text to Finish
+ini_set("text_next", "Finish");
+
+if 
+	getvar("retstatus")=="0" 
+then
+      viewbox(
+    "Installation Completed",
+        "<#080>Congratulations...</#>\n\n"+
+        ini_get("rom_name") + " " + ini_get("rom_version") + " has been successfully installed.\n\n"+
+        "tap Finish, and Reboot your device.\n\nThanks.",
+        "@icon"
+);
+else
+      viewbox(
+           "installation failed",
+           "\n\ninstaller status: "+ getvar("retstatus"),
+           "@alert");
+endif;
+
+#Save installation config
+resexec("scripts/save.sh");
+
+if
+  confirm(
+      "Reboot",
+      "Reboot Now?",
+      "icons/info",
+      "Yes",
+      "No"
+  )=="yes"
+then
+  splash(4000, "leedroid");
+  reboot("onfinish");
+endif;

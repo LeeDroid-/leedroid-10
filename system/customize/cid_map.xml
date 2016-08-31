@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <profiles>
+    <item name="HTC__001">HTC__001.xml</item>
+    <item name="HTC__002">HTC__002.xml</item>
+    <item name="HTC__016">HTC__016.xml</item>
+    <item name="HTC__034">HTC__034.xml</item>
+    <item name="HTC__A07">HTC__A07.xml</item>
+    <item name="HTC__J15">HTC__J15.xml</item>
+    <item name="HTC__M27">HTC__M27.xml</item>
+  </profiles>
+</map>

@@ -1,0 +1,15 @@
+NTP_SERVER=north-america.pool.ntp.org
+XTRA_SERVER_1=http://xtrapath1.izatcloud.net/xtra3grc.bin
+XTRA_SERVER_2=http://xtrapath2.izatcloud.net/xtra3grc.bin
+XTRA_SERVER_3=http://xtrapath3.izatcloud.net/xtra3grc.bin
+SUPL_HOST=FQDN
+SUPL_PORT=7275
+SUPL_TLS_HOST=FQDN
+SUPL_TLS_PORT=7275
+SUPL_TLS_CERT=/etc/SuplRootCert
+PHONE_TYPE=CDMA
+SUPL_VER=0x20000
+LPP_PROFILE=3
+CAPABILITIES=0x33
+SUPL_MODE=STANDALONE_GPS
+SUPL_ES=1

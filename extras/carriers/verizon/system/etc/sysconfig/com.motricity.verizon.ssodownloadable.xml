@@ -1,0 +1,3 @@
+<config>
+   <allow-in-power-save package="com.motricity.verizon.ssodownloadable" />
+</config>

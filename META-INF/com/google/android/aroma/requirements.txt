@@ -1,0 +1,17 @@
+* Did you backup your previous install?
+* A Nandroid backup is always recommended!
+
+Required:
+
+* An unlocked boot-loader
+* A custom recovery (TWRP Recommended)
+* The latest HTC build release firmware
+(This will insure maximum stability)
+
+*ONLY SELECT THE AROMA OPTIONS YOU UNERSTAND
+
+*If you have opted to wipe and do a fresh install, 
+please ensure you used the option to Format Encryption / Data 
+in TWRP prior to installing, Legacy wipe options will not work!
+
+Thanks

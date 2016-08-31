@@ -1,0 +1,16 @@
+ro.com.google.clientidbase=android-htc
+ro.product.model=HTC 10
+ro.phone.min_match=8
+ro.ril.oem.ecclist=999,997,100,166,199,101,102,103,104,113,114,115,118,117
+ro.ril.enable.a53=1
+ro.ril.enable.gea3=1
+ro.ril.enable.amr.wideband=1
+ro.ril.air.enabled=1
+ro.ril.gsm.to.lte.blind.redir=1
+ro.ril.enable.isr=1
+ro.ril.esm.blacklist=22601,26806,26801,21403,42502,25007,25054,25027
+dev.defaultwallpaper=/system/customize/resource/wallpapers_00.jpg
+ro.ril.oem.normalcall.ecclist=113,114,115,118,117
+ro.cw.base.version=M60
+ro.ussd_exclude=01,02,03,04,92,93,94
+ro.product.locale=en-US

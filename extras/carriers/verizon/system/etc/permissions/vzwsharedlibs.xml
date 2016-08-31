@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="com.vzw.android"
+            file="/system/framework/vzwsharedlibs.jar" />
+ 
+    <library name="com.vzw.android.hux"
+            file="/system/framework/vzwsharedlibs.jar" />
+ 
+    <library name="com.vzw.android.smart"
+            file="/system/framework/vzwsharedlibs.jar" />
+
+    <library name="com.htc.device"
+            file="/system/framework/vzwsharedlibs.jar" />
+</permissions>

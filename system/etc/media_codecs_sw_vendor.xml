@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodecList>
+    <Decoders>
+        <!-- DOLBY_UDC -->
+        <MediaCodec name="OMX.dolby.ac3.decoder">
+            <Type name="audio/ac3"/>
+            <Quirk name="needs-flush-before-disable"/>
+            <Quirk name="requires-flush-complete-emulation"/>
+        </MediaCodec>
+        <MediaCodec name="OMX.dolby.eac3.decoder">
+            <Type name="audio/eac3"/>
+            <Quirk name="needs-flush-before-disable"/>
+            <Quirk name="requires-flush-complete-emulation"/>
+        </MediaCodec>
+        <!-- DOLBY_UDC END -->
+    </Decoders>
+</CodecList>

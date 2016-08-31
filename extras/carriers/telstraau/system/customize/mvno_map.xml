@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <profiles key="GID1">
+    <MCCMNC name="24007">
+      <item GID1="4e4c" displayname="Tele2 NL" mapfile="204.xml" />
+    </MCCMNC>
+  </profiles>
+</map>

@@ -1,0 +1,6 @@
+TaskID : 480060
+Project : PERFUME_WHL_M60_SENSE80GP_SPCS
+SKU : Sprint WWE[651]
+ROM Ver : 1.80.651.1
+Customization Id : 3043482
+RCMS Id : 258

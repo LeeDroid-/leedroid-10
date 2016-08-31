@@ -1,0 +1,589 @@
+SVN Log
+LeeDrOiD 10 Marshmallow - V2.4.2
+Based on HTC Europe 1.90.401.5
+
+R151 LeeDrOiD 10 V2.4.2 - August 30th - STABLE
+* Move to Stable - V2.4.2
+* LeeDrOiD Tweaks V8.8.8
+- Remove SystemUI restart notification for Advanced location tile
+* Zip-align apk's
+
+R150 LeeDrOiD 10 V2.4.1 - August 30th
+* Add QS Sound profile tile - Toggle Ring/Vibrate/DND
+
+R149 LeeDrOiD 10 V2.4.1 - August 30th
+* Audio gsin values applied by su.d - values now stick on reboot
+* Backup & restore su.d
+* Update LeeDrOiD Tweaks V8.8.7
+- Fix: Audio gain sticking on reboot
+
+R148 LeeDrOiD 10 V2.4.1 - August 30th
+* Disable bugreport service
+* Add & enable Visual Voice mail for Verizon users - Thanks @andybones
+* Other misc Verizon config fix-ups
+* App updates
+* Update Tweaked PNP Profiles V17 - Thanks @ivicask
+* Update CleanSlate V1.7.2 - Thanks @Tbalden
+- Fixing QCOM security issues:
+- CVE-2016-3866 Buffer Overflow Vulnerability in msm_compr_ioctl_shared
+- CVE-2016-5344 Integer Overflow in MDSS Driver
+- CVE-2016-3859 Arbitrary write vulnerability in msm_isp_send_hw_cmd() when processing VIDIOC_MSM_VFE_REG_CFG ioctl command 
+- BLN Button backlight fix-up's
+
+R147 LeeDrOiD 10 V2.4.1 - August 26th
+* Fix Quick Settings location tile > advanced oocation options mode (enable in Tweaks)
+* Verizon patch re-based on HTC 1.82.605.6
+* Stock kernel camera patch removed (no longer required)
+* LeeDrOiD Tweaks V8.8.6
+- Re-organize & clean-up Kernel tab
+- Add advanced QS Location tile toggle
+* Cleanslate Kernel V1.7.0
+- Re-based on HTCDev 1.91.617.1
+-- Main changes by HTC:
+binder - android locking optimizations
+camera optimizations, actuator patches, sensor driver patches
+general security patches here and there, overflow fixing patches
+htc charger: optimizations, screen off handling
+ext4 patches
+kernel core: timer patches
+- Default Button Light Notification brightness level pumped up
+- WLAN wakelock timeout reduction - credits to @buckmarble
+- Sound Control: Headphone Analog Gain - credits to @flar2
+
+R144 LeeDrOiD 10 V2.4.1 - August 25th
+* Location QS toggle now shows current location mode
+* Application updates
+
+R143 LeeDrOiD 10 V2.4.1 - August 24th
+* Update PNP Thermal Profiles to V16 - thanks @ivicask
+* Fix Kernel installation - SuperSU was restoring an older boot.img backup
+* Remove spanner from pull-down settings icon/button
+* Update in-built apps
+
+R142 LeeDrOiD 10 V2.4.1 - August 20th
+* Update US unlocked to 1.91.617.10
+* Fix kernel installation - would randomly restore an older kernel
+* Fix backup & restore init.d scripts on install
+* Application Updates
+* CleanSlate Kernel V1.5.6
+- Button Light Notification fix
+- Other minor fixes related to how Fingerprint Home button remapping mode works
+* LeeDrOiD Tweaks V8.8.4
+- Kernel & button mod fix-ups
+
+R140 LeeDrOiD 10 V2.4.1 - August 18th
+* Fix version number to stop tweaks notifications
+* Update in-built apps
+* Clean-up install script
+* Kernel defaults used on fresh install
+* Add Selinux permissive option in Aroma
+* LeeDrOiD Tweaks V8.8.20
+- Add "Current ROM Version" on-click link to LeeDrOiD.co.uk Stable page
+- Add Headphone audio gain control slider to kernel tab
+* CleanSlate Kernel V1.5.5 - Thanks @tbalden
+- Security fix: CVE-2016-2059
+- Sound Control for Headphone jack: all credits and thanks to @flar2
+- LED mods fix: fixing LED intensity when Gradient charging LED color is off
+- LED mods fix: fixing Intensity set to 20 with stock notification and charge LED mode will result in LED off
+
+-----------------------------
+
+R139 LeeDrOiD 10 V2.4.0 - August 12th - >> Moved To Stable
+* Remove delay when rebooting to recovery from APM
+* Add HTC Car Home & Traffic
+* Aroma - HTC Car Home & Traffic removal options
+* In-built app updates
+* init.d - scripts & kernel settings restored after flash
+
+R138 LeeDrOiD 10 V2.4.0 - August 11th
+* Remove "Calls will be made over WiFi" pull-down notification (Icon only as it was pointless & irritating)
+* Update Tweaked PNP Thermal profiles to V15 - thanks @ivcask
+* LeeDrOiD Tweaks V8.8.2
+- Fix back-light dimmer not sticking on reboot
+- Adjust LED Intensity logic "-0" > "-20" (If -20, LED is off)
+* Version corrections
+* Fix YouTube when uploading videos
+* Optimize apk's
+
+R137 LeeDrOiD 10 V2.4.0 - August 10th
+* App updates
+* CleanSlate Kernel V 1.5.2 - Thanks @tbalden
+- Adrenoboost version 2.2 - smooth gaming, battery friendly, - further enhancements:
+- Corrected leveling mechanism 
+- finally settling with 133MHz init/idle freq
+- Security fixes: CVE-2016-2504, CVE-2016-2503
+- LED mod: LED fully off at an itensity of 20
+
+R136 LeeDrOiD 10 V2.4.0 - August 6th
+* Fix PNP Profile installation
+* Fix CleanSlate Kernel installation
+* Correct Chrome lib's
+
+R135 LeeDrOiD 10 V2.4.0 - August 6th
+* Fix opening photos from Camera with HTC Gallery/Photos
+* Update Clean Slate Kernel V1.5.1 - Thanks @tbalden
+- Adrenoboost version 2.1 - smooth gaming, battery friendly
+* Update in-built applications
+* Seperate Aroma tab for PNP profiles
+* Update PNP & Thermals profiles V14 - Thanks @ivcask
+* Add GhostPepper & Butterfly PNP profiles - Thanks Freak07
+* Update LeeDrOiD Tweaks V8.8.1
+- Remove redundant tweaked gov profile
+
+R134 LeeDrOiD 10 V2.4.0 - August 5th
+* Merge with HTC 1.90.401.5
+- Sensor & camera updates
+* App updates
+* Move to Stable V2.4.0
+
+R133 LeeDrOiD 10 V2.3.1 - August 4th
+* CleanSlate V1.5.0 - Stable - http://forum.xda-developers.com/showpost.php?p=68033352&postcount=462
+- Fastcharge for USB 2.0
+- Adrenoboost version 2 - smooth gaming, battery friendly, fixing GPU handling of stock HTC kernel
+- Sweep2sleep Full credits to @flar2
+- SoC chip parameter updates (DTSI) for optimal working of msm8996 chip of HTC 10
+
+R132 LeeDrOiD 10 V2.3.1 - August 3rd
+* Update LeeDrOiD Tweaks V8.8.0
+- USB Fast Charge toggle - kernel support required
+- GPU Boost control - kernel support required
+- Fix Sweep to sleep toggle
+- Re-organize kernel tab
+* Application updates
+* Additional init.d scripts for Kernel defaults
+* Tweaked governor updates - thanks @baadnewz
+
+R130 LeeDrOiD 10 V2.3.1 - July 29th
+* Correct cleanslate install for Verizon users
+* App updates
+* Zipalign all apps
+* Stable V2.3.1
+
+R129 LeeDrOiD 10 V2.3.0 - July 29th
+* Move to STABLE - LeeDrOiD 10 V2.3.0
+* Correct locales in build.proper
+* Fix icons in SystemUI Tuner
+* Remove redundant application stubs
+* Correct CID Map
+* Update LeeDrOiD Tweaks V8.7.9
+- Add dimmer baclkight control to kernel tweaks
+* Add Notification LED Controls
+* Clean Slate Kernel - V1.4.0
+- Chromatic battery charging led
+- Fading notification led
+- Upper grill RGB LED light brightness level
+
+R128 LeeDrOiD 10 V2.2.0 - July 29th
+* Re-base on HTC Europe 1.90.401.3
+* Update all in-built apps
+* Update PNP profiles for new base
+* Move to Clean Slate Kernel V1.3.1 - thanks @tbalden
+
+R127 LeeDrOiD 10 V2.2.0 - July 26th
+* Fixed Telephony FC when 3rd party apps were using com.android.phone (thanks Electronic Punk for reporting and testing)
+* Application updates
+
+R126 LeeDrOiD 10 V2.2.0 - July 22nd
+* Update in-built applications
+* Update @~clumsy~ Kernel V1.24 - thanks @~clumsy~
+- Fixed BLN not being able to turn off thanks @tbalden
+* Add optional Tweaked CPU Governor settings - thanks @baadnewz
+* Add optional Performance & Balanced PNP (Power Manager) Profiles - thanks @ivcask
+* Update LeeDrOiD Tweaks V8.7.7
+- Enhanced CPU Governor settings toggle
+
+R124 LeeDrOiD 10 V2.2.0 - July 19th
+* Only install Clumsy kernel tweaks with clumsy kernel
+* Aroma - Move HTC/Stock Lockscreen toggle to tweaks section
+* Fix lag in power button press
+* Improve Sense Home Smoothness - thanks @baadnewz
+* Update in-built applications - thanks @electronicpunk
+
+R122 LeeDrOiD 10 V2.2.0 - July 18th
+* Correct Telstra AU patch
+* Correct HW Key toggle in LeeDrOiD Tweaks
+* Update LeeDrOiD Tweaks V8.7.6
+
+R121 LeeDrOiD 10 V2.2.0 - July 18th
+* Patched and updates HTC Sense Home 8.14.781908
+- All MOD's ported
+* Zip-align all applications
+* @~Clumsy~ Kernel V1.23
+- BLN Updates
+- Add KCal - Display colour calibration - thanks to @tbalden
+* Added @~Clumsy~ Kernel Tweaks app
+
+R120 LeeDrOiD 10 V2.2.0 - July 15th
+* Merge with HTC 1.80.401.3 - New Base
+* Update LeeDrOiD Tweaks - misc clean-up's
+* Update all in-built apps - thanks @ElectronicPunk
+
+R119 LeeDrOiD 10 V2.2.0 - July 5th
+* Remove EE carrier support & add VoLte to International network config
+
+R118 LeeDrOiD 10 V2.2.0 - July 5th
+* Update SuperSU 2.76-Stable - Thanks @chainfire!
+* Fix EE VoLte
+* Fix Kernel install when selecting EE UK
+
+R117 LeeDrOiD 10 V2.2.0 - July 5th
+* Update T-Mobile US support - 1.80 base
+* Add Full EE UK Carrier support with VoLte & Wi-Fi Calling
+* Update in-built apps
+* Update @~clumsy~ kernel V2.21 - massive thanks @~clumsy~
+- Separate Sprint Kernel for seamless support
+- Additional BLN configuration - Max Blinks
+* LeeDrOiD Tweaks V8.7.3
+- Add BLN Max blink configuration
+
+R116 LeeDrOiD 10 V2.1.0 - July 3rd
+* Fix Aroma wipe script
+* Move to Stable V2.1.0
+
+R115 LeeDrOiD 10 V2.1.0 - July 2nd
+* Remove rogue PNSClient from Prism folder
+* Add long press volume down to launch flashlight (remap in tweaks)
+* Update LeeDrOiD Tweaks V8.7.2
+* Fixed Screen Record service
+
+R114 LeeDrOiD 10 V2.1.0 - July 2nd
+* Status bar traffic indicator off as default
+* Remove Kill App button from Circle App Side Bar
+* Additional default Circle App Side Bar shortcuts
+* Aroma - Fix bootsound toggle
+* Aroma - New lockscreen removal method
+* LeeDrOiD Tweaks V8.7.1
+- Add HTC/AOSP lockscreen toggle
+- Clean-ups
+
+R113 LeeDrOiD 10 V2.1.0 - July 1st
+* Add Telestra AU carrier support patch - thanks @jbm76 &@purple patch
+* LeeDrOiD Tweaks V8.7.0 
+- Add App circle side bar app selection
+* Add Aroma option to disable boot audio
+* Update PNSClient & Play Store
+
+R112 LeeDrOiD 10 V2.1.0 - June 28th
+* Add AppCircle Side Bar (Quick Launcher)
+* Update LeeDrOiD Tweaks V8.6.9 
+- Add AppCircle configurations & toggle
+* Update Sense Home 8.14.772696
+- All tweaks and mods ported
+* Update Play Store & PNS Client
+* Add HTC App Auto Start manager - settings - security - thanks @baadnewz
+* Zipalign / optimize apk's
+
+R111 LeeDrOiD 10 V2.0.1 - June 27th
+* Application Updates
+* Fix contact picture selection with HTC Gallery - Thanks @baadnewz
+* Development settings on as default
+* Re-enable multi window mode in developer settings
+* Re-add Ambient display toggle to display settings
+* Add Quicksettings footer Signal strength mod (toggle in tweaks) - thanks @baadnewz
+* Update LeeDrOiD Tweaks V8.6.6
+* Misc clean-ups
+
+R110 LeeDrOiD 10 V2.0.1 - June 22nd
+* Fix SystemUI Tuner QS tile rearrange for Verizon users
+* Zipalign all apk's
+
+R109 LeeDrOiD 10 V2.0.1 - June 22nd
+* Update @~Clumsy~ Kernel V1.20th
+- Re-based on HTC 1.80.401.1 source - thanks @~clumsy~ for the fast turn around!
+
+R108 LeeDrOiD 10 V2.0.1 - June 21st
+* Update Sprint support - 1.80 base - thanks to OMJ for the system dump
+* Update in-built applications
+* Aroma - Stock Kernel as default and add warning to Clumsy Kernel
+* Add Aroma option to remove HTC Lock Screen & use Stock Android (Wake gestures will be lost)
+
+R107 LeeDrOiD 10 V2.0.1 - June 20th
+* Correct build version numbering
+* Update LeeDrOiD Tweaks V8.6.3
+* Add Status bar icon battery percent toggle (embedded)
+* SystemUI Tuner clean-ups
+
+R106 LeeDrOiD 10 V1.5.0 STABLE - June 17th
+* Significantly reduce camera compatibility patch (98% 1.80 base) - @baadnewz
+* Remove tuner warning message
+* Update in-built apps
+* Adjust big contact picture to account for lock screen corrections
+* Move to Stable 1.5.0
+
+R105 LeeDrOiD 10 V1.5.0 - June 16th
+* Fix Status Bar layout in lock screen
+* Force SystemUI tuner always on
+* Fix stroage permissions 
+
+R103 LeeDrOiD 10 V1.5.0 - June 16th
+* Roll back SystemUI tuner default ON - long press pull down to activate
+* Fix gesture controls
+* Clock & center clock now visible and working in lock-screen
+* Fixed apps closing when requesting storage perms
+
+R101 LeeDrOiD 10 V1.5.0 - June 16th
+* Move Centre clock mod to tweaks
+* Update LeeDrOiD Tweaks V8.6.10
+
+R100 LeeDrOiD 10 V1.5.0 - June 16th
+* SystemUI Tuner on/enabled as default
+* Update in-built apps
+* Misc clean-ups
+
+R99 LeeDrOiD 10 V1.5.0 - June 16th
+* Minimize camera compatibility patch - use as much 1.80 base as possible (Custom Kernel, Sprint & Verizon)
+
+R98 LeeDrOiD 10 V1.5.0 - June 16th
+* Re-enable cutom kernel option! - Clumsy 1.21
+* Add 1.30 camera libs and binaries to Kernel, Sprint & Verizon patches - This will revert HTC's improvements
+
+R96 LeeDrOiD 10 V1.5.0 - June 15th
+* Re-based on HTC Europe 1.80.401.10
+* Updated all applications - Thanks @Electronic Punk
+* Temporarily removed Custom Kernel option
+* Add Quick settings brightness slider toggle (Default off - activate in tweaks)
+* Add Quick settings brightness tile - slider & long press mode toggle
+* Add Quick settings heads up notification toggle
+
+R95 LeeDrOiD 10 V1.4.3 - June 15th
+* Fixed APM screenshot taking screenshot before closing - @baadnewz
+* Added Sense Home custom menu + tweaks toggle - @baadnewz - (thanks @Raymond Ebertt for fixing the menu backgroud)
+* Reduced QS Tile text size to remove overflow
+* Tweaks toggle to shrink Wi-Fi & BT Icons to match all - @baadnewz
+* Fix tweaks XDA Link
+
+R94 LeeDrOiD 10 V1.4.3 - June 13th
+* Add tweak for 4 QS columns - @baadnewz
+* More clean-ups
+
+R93 LeeDrOiD 10 V1.4.3 - June 13th
+* Fix tiles that were incorrectly showing as activated
+
+R91 LeeDrOiD 10 V1.4.3 - June 13th
+* Fix QS Screen shot tile icon
+* Fix QS tiles for all carriers - thanks @j to the 4n for pointing out the sku id checks
+
+R90 LeeDrOiD 10 V1.4.3 - June 12th
+* Add data usage QS tile
+* Add SystemUI Tuner QS Tile
+* Add LeeDrOiD Tweaks QS Tile
+* More QS Cleanups
+* Switched to 4 columns in QS pull-down (this will be changeable in tweaks soon)
+* Removed redundant camera libs
+* Remove AppManager, AppCloud, Udove & FlexNet (Crap-ware cleanup)
+* Update LeeDrOiD Tweaks - UI clean-ups
+* Added Multi Window option to - Settings - Developer Settings
+
+R89 LeeDrOiD 10 V1.4.3 - June 11th
+* Cleaned up & fixed SystemUI Tuner - Quick Settings - special thanks to @jm@n for collaborating on this
+* Added quick settings caffieine tile (keep screen on for set time)
+* Added quick settings screen shot tile
+* Added quick settings SuperSU tile
+* Added Menu button to Navigation bar if used (can be toggled in tweaks)
+* Update LeeDrOiD Tweaks V8.5.5
+* Fixed SeLinux Enforcing - Thanks @baadnewz
+* Switched default SeLinux to enforcing for improved security
+* Properly disabled signature checking
+* Re-add su.d folder to make life easier for you guys!
+* Freshly deodex framework files
+
+R88 LeeDrOiD 10 V1.4.3 - June 10th
+* Update in-built apps - Thanks @Electronic Punk!
+* Systemless Root only
+* Remove su.d support - not required
+* Update @~clumsy~ Kernel V1.12
+- Now compatible with all carriers!
+
+R87 LeeDrOiD 10 V1.4.3 - June 9th
+* Force system-less root when running decrypted
+* Optional system-less/system root when force encryption enabled
+* Fix Sprint hot spot
+* Disable custom kernel option for Sprint (incompatible)
+* Update LeeDrOiD Tweaks V8.5.4
+
+R86 LeeDrOiD 10 V1.4.2 - Stable - June 8th
+[*]Fix Secure boot pin/pass! - Credits @baadnewz
+[*]Enable radio when decrypted - Credits @squid2
+[*]Make Force Encryption optional in Aroma
+[*]Cleaned up T-Mobile US Support - thanks @twinnfamous
+[*]Fixed US Unlocked support! (100% working)
+[*]Update @~clumsy~ Kernel V1.11
+- improved/fixed exFat support (sd issues fixed)
+[*]Add additional default kernel scripts
+[*]Replace GP HTC Gallery & Add Sense HTC Gallery + Photo editor (removable in Aroma)
+[*]Add tweak to allow opening photos in HTC Gallery from Camera - thanks @baadnewz
+[*]Update LeeDrOiD Tweaks V8.4.8
+[*]Add Hide GPS toggle - especially for @gstanke for his patience with Sprint :)
+
+R78 LeeDrOiD 10 V1.4.1 - Stable - June 7th
+[*]Add SPRINT Support - massive thanks to @ChubbsLou for doing the graft  & @  for relentlessly testing
+[*]Improved T-Mobile US Support
+[*]Update @~clumsy~ kernel V1.10
+- Re-based on HTC Europe 1.30.401.1 Source
+- Improvements in Power management / battery
+- Improvements in Wi-Fi connectivity
+- Improvements in in camera VL53L0 auto focus driver
+[*]Update Sense Home 8.14.764203 (640dpi) - tweaks ported - thanks @baadnewz
+[*]Update HTC Camera v8.10.763406
+[*]Update LeeDrOiD Tweaks V8.4.7
+[*]Add Hide BoomSound notification toggle!
+[*]Add 4G/LTE Mixed Mode icon toggle
+[*]Add Hide status bar clock tweak
+
+R72 LeeDrOiD 10 V1.4.0 - Stable - June 6th
+[*]Fixed Auto Record Incoming Calls - Thanks @baadnewz
+[*]Fix caller photo layout/scroll issue
+[*]Remove rebooting to recovery dialog
+[*]Make Audio Boost optional in Aroma
+[*]Removed safe volume warning
+[*]Add kernel init.d scripts for BLN, DTFP2S, FB Vib & S2S
+[*]Update LeeDrOiD Tweaks V8.4.4
+[*]- Additional Kernel support!
+[*]@~clumsy~ Kernel V 1.02
+[*]- Add BLN Speed sysfs interface
+[*]- Configurable Double Tap 2 Sleep Speed
+[*]US-Unlocked Support - Thanks @jollywhitefoot & @jsaxon2!
+[*]Update Hangouts, GMail, Calendar & Chrome
+[*]Remove teathering guard for US carriers
+[*]Misc Clean-ups
+
+R67 LeeDrOiD 10 V1.3.0 - Stable - June 3rd
+[*]SuperSU - make systemless root optional 
+[*]AUDIO BOOST - all configurations
+[*]Adjust default animation scale 75%
+[*]Hide Statusbar battery icon toggle - Kudos @baadnewz
+[*]Fix Power Save, NFC & Color Inversion Quick Setting Tile's
+[*]Volume long press to control media / ambient pulse (Cheers @baadnewz)
+[*]QS Pull Down user switcher icon (activate in tweaks)
+[*]Hide IME selector
+[*]SystemUI Tuner - Quick settings re-order fixed
+[*]1.55 Base Camera app
+[*]Add optional 100% Jpeg quality in camera (0 compression) (@Virus)
+[*]Increase default MMS size limits
+[*]Revert to user build flags
+[*]Add MIUI Battery Bar to lock screen status bar
+[*]Re-add Default touchpal skin
+[*]Update HTC Sense Home 8.12.75.96.08 
+[*]Fix Full Wipe in Aroma
+[*]Add proper fix for multi user support
+[*]Update In-Built spplications
+[*]LeeDrOiD Tweaks V8.4.1
+- Add Kernel tab & toggles/controls 
+- Adjust finger print vibe strength
+- Toggle Fingerprint double tap to sleep 
+- Sweep 2 Sleep options
+- Toggle Button Light Notifications
+- Adjust System Vibration Voltage
+- Fix Heads Up notification toggle
+- Re-arrange Status Bar toggles
+[*]Add optional ~Clumsy~ kernel option in Aroma
+- First Revision based on HTC 1.21.401.4 dev source
+- Backlight notification
+- Fingerprint double tap to sleep
+- sweep to sleep
+- NTFS Support
+- Advanced TCP congestion algorithms (westwood default)
+- Kernel Same-Page Merging
+
+R46 LeeDrOiD 10 V1.2.0 - Stable - May 21st
+[*]Add Verizon support - massive thanks to @Virus
+[*]Add T-Mobile US support - massive thanks to @twinnfamous
+[*]Update to SuperSU 2.74 - Thanks @chainfire!
+[*]APM: Remove Reboot Bootloader and add reboot to Download Mode
+[*]Aroma: Add Full wipe option
+[*]Aroma: Add Wipe dalvik cache option
+[*]Aroma: Tweaks: Nav Bar, ADB/MTP & Fast Dormancy toggles
+[*]Aroma: Google TalkBack, Android Pay & Instagram removal options
+[*]Add HTC IME & Aroma removal option
+[*]Fix multiple user support!
+[*]Disable Wi-Fi calling toggle for unsupported carriers
+[*]Application updates: Touchpal, Boost+, Google Search, Play Store, Hangouts, Docs
+[*]Installer clean-ups
+[*]Default configuration changes
+[*]LeeDrOiD Tweaks V8.3.3
+[*]Fix tweaks QS battery percent toggle
+[*]Add App switch key behavior & read current value from db
+[*]Removed SELinux toggle & PayPal from app
+[*]Additional code clean-ups
+
+R27 LeeDrOiD 10 V1.1.1 - Stable - May 16th
+[*]Aroma - automatic backup & restore previous selection's
+[*]Roll Facebook, Messenger & Instagram back to application stubs (smaller ROM size)
+[*]Added Facebook & Instagram BlinkFeed Plugins
+[*]Added missing HTC widgets & Aroma removal options:
+CalculatorWidget, HtcAutoRotateWidget, HtcBackgroundDataWidget, HtcProfilesWidget, HtcRingtoneWidget, 
+HtcScreenBrightnessWidget, HtcScreenTimeoutWidget, HtcSyncWidget, HtcBtWidget, HtcCalendarWidgets, 
+HtcContactWidgets, HtcDataRoamingWidget, HtcDataStripWidget, HtcHotspotWidget, HtcMobileNetworkWidget, 
+HtcMusicWidget, HtcWiFiWidget
+[*]Add HTC Gallery & HTC Music with Aroma removal options
+[*]Non market app installs enabled as default
+[*]Developer settings enabled as default
+[*]Remove Blinkfeed advertising
+[*]Tweaks: Quick settings pull down battery percentage
+[*]Installation clean-ups
+
+R23: LeeDrOiD 10 V1.1.0 - Stable - May 13th
+[*]Official SuperSU 2.72 thanks @chainfire
+[*]Dynamically set SuperSU flags in updater
+[*]Remove hrdump - spam logs in /data 4GB+
+[*]Full wipe issues rectified (users can now Format Encryption/Data in TWRP)
+[*]Update LeeDrOiD Tweaks V8.2.8
+[*]Tweaks: Volume keys to control keyboard cursor movement
+[*]Tweaks: Enable navigation bar & disable HW keys (Excluding fingerprint sensor)
+[*]Tweaks: Custom navigation bar size
+[*]Tweaks: traffic indicator colour
+[*]Add long press back to kill current app
+[*]Reduce Aroma DPI (Easier to read)
+[*]Fix inverted option for Flash notification LED whilst charging
+[*]Fix Squared caller photo
+[*]AOSP nav bar icons when nav bar enabled
+[*]Remove TouchPal language pack's (can be downloaded on setup)
+[*]Fix lock screen layout when nav bar enabled
+[*]Fix HTC Sync notification toggle
+[*]Updater & Aroma clean-ups
+
+R20: LeeDrOiD 10 V1.0.2  - Stable
+[*]Update LeeDrOiD Tweaks V8.2.4
+[*]Added Optional China Sense Recent apps & Aroma toggle
+[*]Add init.d support
+[*]Enable adb at boot time
+[*]Update all inbuilt applications (Thanks @ElectronicPunk for doing the leg work)
+[*]Move to SuperSU-v2.71-forceencrypt modified by @topjohnwu
+[*]Encryption / Mobile connectivity issues resolved
+[*]Default configuration tweaks
+[*]System clean-ups & optimisations
+
+R12: LeeDrOiD 10 V1.0.1  - Stable Release
+[*]Based on HTC Europe 1.30.401.1
+[*]Root - SuperSU
+[*]Busybox
+[*]Logging stripped - HTC Log Level, Smith, QXDM2SD
+[*]LeeDrOiD custom framework
+[*]LeeDrOiD Tweaks
+[*]Disabled signature checking
+[*]Aroma app removal options
+[*]Better battery stats
+[*]Mail - Optional Exchange Hack
+[*]Center clock (Aroma)
+[*]Advanced power menu
+[*]Ambient Display
+[*]Call Recording Support
+[*]Hide photo mask in caller photo
+[*]Squared Caller Photo Mod
+[*]Full rotation mod
+[*]Default USB function hack / toggle
+[*]Sense Home Mods:
+[*]Landscape
+[*]Infinite folders
+[*]Additional highlight colors
+[*]5x6 App Drawer
+[*]SystemUI Mods:
+[*]Twin traffic indicator
+[*]MIUI battery Bar
+[*]SystemUI Tuner
+[*]Right corner quick QS pull-down
+[*]Double tap status bar to sleep
+[*]Hide power save toggle
+[*]MTP notification toggle
+[*]Clock am/pm toggles
+

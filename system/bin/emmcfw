@@ -1,0 +1,52 @@
+#!/system/bin/sh
+
+TAG="StorageFirmwareUpgrade"
+PRINT="log -p e -t $TAG"
+REBOOT="/system/bin/reboot"
+MMC="/system/bin/sandisk_mmc"
+
+# 313130323234 (CS1.20 110224)
+# 313031313439 (CS1.25 101149)
+original_fw_ver="313130323234|313031313439"
+
+# 323032303131 (CS1.26 202011)
+firmware="sandisk_fw_202011.fluf"
+target_fw_ver="323032303131"
+
+check_sandisk_ver() {
+    ext_csd=$(cat /sys/kernel/debug/mmc0/mmc0:0001/ext_csd)
+    fw=`echo $ext_csd | grep -c -E $1`
+    $PRINT "CHECK: $fw ($1)"
+    # Check device and target firmware version
+    if [ $fw -eq 1 ]; then
+        return 1
+    else
+        return 0
+    fi
+}
+
+# Check version before firmware upgrade
+check_sandisk_ver $original_fw_ver
+# get the function return value
+ret=$?
+
+# If find the firmware version is 110224 and upgrade it
+if [ $ret -eq 1 ]; then
+    $PRINT "START"
+    result=$($MMC ffu $firmware /dev/block/mmcblk0)
+    $PRINT "$result"
+    $PRINT "END"
+
+    # Check version after firmware upgrade
+    check_sandisk_ver $target_fw_ver
+    ret=$?
+    if [ $ret -eq 1 ]; then
+        $PRINT "PASS"
+        $PRINT "REBOOT NOW..."
+        $REBOOT
+    else
+        $PRINT "FAIL"
+    fi
+else
+    $PRINT "NO NEED"
+fi
