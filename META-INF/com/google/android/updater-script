@@ -575,6 +575,20 @@ then
     ui_print("-> Switching to Stock Android LockScreen");
 	run_program("/tmp/lockscreen.sh");
 endif;
+if
+    file_getprop("/tmp/aroma-data/tweaks.prop","item.0.14") == "1"
+then
+ui_print("-> Smooth Auto Brightness enabled");
+          run_program("/tmp/set_build_prop.sh", "leedroid.smooth.brightness", "1");
+else
+	ui_print("-> Stock Auto Brightness enabled");
+endif;
+if
+    file_getprop("/tmp/aroma-data/tweaks.prop","item.0.15") == "1"
+then
+ui_print("-> Auto Brightness Twilight Mode Enabled");
+          run_program("/tmp/set_build_prop.sh", "persist.power.usetwilightadj", "1");
+endif;
 #END OF CUSTOMIZATIONS
 
 #SYSTEM SETUP
@@ -906,7 +920,7 @@ run_program("/tmp/busybox", "fstrim", "-v", "/cache");
 set_progress(0.94);
 
 ui_print("-> Setting Rom Version");
-run_program("/tmp/set_build_prop.sh", "ro.product.version", "LeeDrOiD_10_V2.4.2-Stable");
+run_program("/tmp/set_build_prop.sh", "ro.product.version", "LeeDrOiD_10_V2.4.2-R152");
 
 set_progress(0.96);
 run_program("/sbin/sleep", "1");

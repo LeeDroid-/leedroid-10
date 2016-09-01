@@ -1,5 +1,5 @@
 ini_set("rom_name",             "LeeDrOiD 10");
-ini_set("rom_version",          "V2.4.2-Stable");
+ini_set("rom_version",          "V2.4.2-R152");
 ini_set("rom_date",             "August 30th 2016");
 ini_set("rom_author",           "LeeDrOiD");
 ini_set("rom_device",           "HTC 10");
@@ -180,7 +180,9 @@ checkbox(
 	"Add Navigation Bar", "Removed capacitive keys", 0,
 	"ADB MTP USB Mode", "ADB only is default", 0,
 	"Enable Fast Dormancy", "Faster network switching", 1,
-	"Stock Android LockScreen", "Wake gestures will be lost when removing HTC lockscreen",  0
+	"Stock Android LockScreen", "Wake gestures will be lost when removing HTC lockscreen",  0,
+	"Smooth Auto Brightness", "More agressive",  0,
+	"Auto Brightness Twilight Adjust", "Adjust brightness based on time of day",  0
 );
 
 if 

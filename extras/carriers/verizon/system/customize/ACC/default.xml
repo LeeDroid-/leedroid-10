@@ -395,7 +395,7 @@
 </app>
 <app name="Android_TelephonyMessage">
   <item type="boolean" name="framework_mms_is_support_mms">true</item>
-  <item type="string" name="telephony_sms_default_sms_ap"></item>
+  <item type="string" name="telephony_sms_default_sms_ap">com.verizon.messaging.vzmsgs</item>
   <item type="string" name="telephony_sms_email_gateway_number">6245</item>
   <item type="boolean" name="telephony_sms_is_check_ruim_record_length">false</item>
   <item type="boolean" name="telephony_sms_is_open_channel_sku">false</item>
@@ -522,7 +522,7 @@
   <item type="boolean" name="IsVerizonFocusLockToast">false</item>
   <item type="string" name="photo_booth_skin_level">0.3</item>
   <item type="string" name="selfie_mode_skin_level">0.5</item>
-  <item type="boolean" name="support_front_cam_led_countdown">false</item>
+  <item type="boolean" name="support_front_cam_led_countdown">true</item>
   <item type="boolean" name="support_panorama">true</item>
   <item type="boolean" name="support_same_features_for_all_cameras">true</item>
   <item type="boolean" name="supportZoeInVideoCapture">false</item>

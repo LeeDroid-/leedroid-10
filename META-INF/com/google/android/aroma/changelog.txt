@@ -2,6 +2,13 @@ SVN Log
 LeeDrOiD 10 Marshmallow - V2.4.2
 Based on HTC Europe 1.90.401.5
 
+R152 LeeDrOiD 10 V2.4.2 - August 30th
+** This update will wipe your dalvik cache as framework has changed **
+* Add smoother 2nd auto brightness array
+* LeeDrOiD Tweaks V8.9.1
+- Add Smooth Auto Brightness/Stock Auto Brightness toggle
+- Add Brightness Twilight Mode toggle (Adjusts brightness & tint based on time of day)
+
 R151 LeeDrOiD 10 V2.4.2 - August 30th - STABLE
 * Move to Stable - V2.4.2
 * LeeDrOiD Tweaks V8.8.8

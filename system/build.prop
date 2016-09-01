@@ -565,6 +565,8 @@ qemu.hw.mainkeys=1
 leedroid.squared.caller=0
 leedroid.sys.usb.config=adb
 persist.adb.notify=0
+leedroid.smooth.brightness=0
+persist.power.usetwilightadj=0
 
 #smooth
 persist.sys.scrollingcache=4
